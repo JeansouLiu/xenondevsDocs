@@ -1,7 +1,7 @@
 site_name: xenondevs docs
-site_url: https://xenondevs.xyz/docs/
-repo_url: https://github.com/xenondevs/Docs
-repo_name: xenondevs/Docs
+site_url: https://xenondevs.tree.pink/
+repo_url: https://github.com/xenondevs/Nova
+repo_name: xenondevs/Nova
 edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2022 xenondevs
 
@@ -83,13 +83,22 @@ plugins:
           "Basics": 基础
           "Creating Items": 创建物品
           "Creating Blocks": 创建方块
-          "Creating GUIs": 创建菜单
+          "Creating GUIs": "创建 GUI"
           "Language Files": 语言文件
           "Items": 物品相关
           "Registering Materials": 创建材料
           "Item Behaviors": 物品行为
           "Using ItemNovaMaterial": "使用 ItemNovaMaterial"
+          "Item Categories": 物品种类
           "TileEntities": 方块实体
+          "Config": 配置
+          "TileEntity Data": 方块实体信息
+          "Upgrades": 升级
+          "Particles": 粒子效果
+          "GUI Textures": "GUI 贴图"
+          "Advancements": 进度
+          "Recipes": 配方
+          "Structure": 结构
 
 extra_css:
   - assets/stylesheets/extra.css
