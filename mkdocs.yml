@@ -92,6 +92,7 @@ plugins:
           "Item Categories": 物品种类
           "TileEntities": 方块实体
           "Config": 配置
+          "Blocks": 方块相关
           "TileEntity Data": 方块实体信息
           "Upgrades": 升级
           "Particles": 粒子效果
