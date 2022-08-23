@@ -13,6 +13,13 @@ extra:
       link: https://discord.com/invite/hnEknVWvUe
     - icon: fontawesome/brands/patreon
       link: https://patreon.com/xenondevs
+  alternate:
+    - name: English
+      link: ""
+      lang: en
+    - name: 简体中文
+      link: /zh/
+      lang: zh
 
 theme:
   name: material
@@ -51,6 +58,7 @@ plugins:
       default_language: en
       languages:
         en: English
+        zh: 简体中文
 
 extra_css:
   - assets/stylesheets/extra.css
