@@ -57,8 +57,39 @@ plugins:
   - i18n:
       default_language: en
       languages:
-        en: English
-        zh: 简体中文
+        en:
+          name: English
+          site_name: xenondevs docs
+        zh:
+          name: 简体中文
+          site_name: xenondevs 帮助文档
+      nav_translations:
+        zh:
+          "Home": 首页
+          "For Server Admins": 安装及配置帮助
+          "Setup": 安装
+          "Configuration": 插件配置
+          "Compatibility": 兼容性
+          "List of compatible Plugins": 兼容的插件
+          "Troubleshooting": 故障排除
+          "Recipes": 配方
+          "Custom Recipes": 自定义配方
+          "Vanilla Recipe Types": 原版类配方
+          "Machines Recipe Types": 机械类配方
+          "FAQ": 常见问题
+          "Addons": 扩展
+          "Getting Started": 入门
+          "AssetPacks": 资源包
+          "Basics": 基础
+          "Creating Items": 创建物品
+          "Creating Blocks": 创建方块
+          "Creating GUIs": 创建菜单
+          "Language Files": 语言文件
+          "Items": 物品相关
+          "Registering Materials": 创建材料
+          "Item Behaviors": 物品行为
+          "Using ItemNovaMaterial": "使用 ItemNovaMaterial"
+          "TileEntities": 方块实体
 
 extra_css:
   - assets/stylesheets/extra.css
