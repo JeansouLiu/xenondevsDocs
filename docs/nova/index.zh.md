@@ -1,4 +1,4 @@
-# Nova Wiki
+# Nova 中文文档
 
 ![](https://p0.meituan.net/dpplatform/97d32fda82acde8d7144d4fd843863411777805.png)
 
