@@ -27,13 +27,16 @@ extra:
       link: /zh/
       lang: zh
 
+extra_css:
+  - assets/stylesheets/extra.css
+
 theme:
   name: material
   font: false
   logo: assets/logo.png
   palette:
     scheme: slate
-    primary: pink
+    primary: deep purple
     accent: green
   features:
     - content.tabs.link
@@ -109,9 +112,6 @@ plugins:
           "Advancements": 进度
           "Recipes": 配方
           "Structure": 结构
-
-extra_css:
-  - assets/stylesheets/extra.css
 
 nav:
   - "Nova":
