@@ -2,8 +2,8 @@ site_name: xenondevs docs
 site_url: https://xenondevs.tree.pink/
 repo_url: https://github.com/xenondevs/Nova
 repo_name: xenondevs/Nova
-edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2022 xenondevs
+edit_uri: ""
+copyright: Copyright &copy; 2022 xenondevs. Translated by Jeansou.
 
 extra:
   social:
@@ -13,6 +13,12 @@ extra:
       link: https://discord.com/invite/hnEknVWvUe
     - icon: fontawesome/brands/patreon
       link: https://patreon.com/xenondevs
+    - icon: fontawesome/solid/pen
+      link: https://github.com/JeansouLiu/xenondevsDocs
+      name: 在 GitHub 上改善此翻译
+  analytics:
+    provider: google
+    property: G-D07WH8Y481
   alternate:
     - name: English
       link: /en/
@@ -23,9 +29,12 @@ extra:
 
 theme:
   name: material
+  font: false
   logo: assets/logo.png
   palette:
     scheme: slate
+    primary: pink
+    accent: green
   features:
     - content.tabs.link
     - navigation.tabs
