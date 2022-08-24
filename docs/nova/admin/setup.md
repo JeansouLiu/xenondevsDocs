@@ -1,86 +1,86 @@
-# Setting up Nova
+# 安装 Nova
 
-## Step 1: Plugin Installation
+## 步骤 1: 安装插件
 
-* Like any other plugin, the Nova plugin jar file downloaded from [SpigotMC](https://www.spigotmc.org/resources/93648/) or our [Discord](https://discord.gg/hnEknVWvUe) just needs to be put in the ``plugins/`` folder of your server.
-* Start your server and wait until Nova is done loading. (Indicated by the message in the console `[Nova] Done loading`). This creates config files and directories which you will need to access in the following steps.
-* Stop your server.
+* 与其他插件一样, 从 [SpigotMC](https://www.spigotmc.org/resources/93648/) 或 [Discord](https://discord.gg/hnEknVWvUe) 上下载的插件 jar 文件只需放在 ``plugins/`` 文件夹中即可.
+* 启动服务器并等待 Nova 完成加载. (控制台消息 `[Nova] Done loading`). 此时后面会用到的配置文件及目录就创建好了.
+* 关闭服务器.
 
-!!! warning
+!!! 警告
 
-    Nova v0.9 is not compatible with earlier versions of Nova. If you're updating from an earlier version, make sure to delete the ``plugins/Nova`` folder and remove all items and blocks from Nova from your world.
+    Nova v0.9 于早期版本的 Nova 并不兼容. 如果你是从早期版本升级, 请确保删除了 ``plugins/Nova`` 目录并从世界中移除了所有 Nova 物品.
 
-## Step 2: ResourcePack Hosting
+## 步骤 2: 上传资源包
 
-Due to the way custom resource packs work, it is required to upload them to a web server first before they can be sent to players.  
-You can do this either manually or automatically.
+根据自定义资源包的工作原理, 你需要将资源包上传才能提供给其他玩家使用.  
+你可以手动或是自动完成这一步骤.
 
-### Manual ResourcePack Hosting
+### 手动上传资源包
 
-For manual resource pack hosting, upload the resource pack found under ``plugins/Nova/resource_pack/ResourcePack.zip`` to a file uploader of your choice.
-Then set the url to download the resource pack in the main config file ``plugins/Nova/configs/config.yml`` under ``resource_pack.url``:
+如果要手动上传资源包, 将 ``plugins/Nova/resource_pack/ResourcePack.zip`` 文件上传至云端.
+之后将资源包的**直链**链接填入 ``plugins/Nova/configs/config.yml`` 中的 ``resource_pack.url``:
 
 ```yaml title="plugins/Nova/configs/config.yml"
 resource_pack:
   url: https://example.com/resource_pack.zip
 ```
 
-!!! warning
+!!! 警告
 
-    It is important that the url you set here is a **direct** download link.
+    该链接必须为 **直链** 下载链接.
 
-### Automatic Resource Pack Hosting
+### 资源包自动上传
 
-You can also use Novas built-in way to automatically upload the resource pack after it changes.  
-The auto-uploader can be configured in the main config file ``plugins/Nova/configs/config.yml`` under ``resource_pack.auto_upload``.
+你也可以使用 Nova 内置的上传功能来自动上传资源包.  
+你可以在 ``plugins/Nova/configs/config.yml`` 文件中的 ``resource_pack.auto_upload`` 项中设置自动上传.
 
-There are currently three main ways to configure the auto-uploader:
+目前有三种方式来配置自动上传:
 
-!!! info "Available Upload Services"
+!!! 关于 "可用的上传服务"
 
-    === "Patreon Upload Service"
+    === "Patreon 上传服务"
     
-        [Patrons](https://www.patreon.com/xenondevs) are given access to upload to our servers.
-        Due to hosting costs and the potential for abuse, this service is only available to Patrons and not available publicly.
+        [Patrons](https://www.patreon.com/xenondevs) 可以将资源包上传到我们的服务器上.
+        由于服务器费用以及防止滥用, 此服务仅对 Patrons 开放.
     
-        Example config:
+        示例配置:
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
             enabled: true
             service: xenondevs
-            key: "" # Your Patreon-Uploader Key
+            key: "" # 你的 Patreon-Uploader 密钥
         ```
     
-    === "Self-hosted"
+    === "自行搭建 Web 服务"
     
-        If you're able to open a port on your server, this option will make the most sense for you.
-        Nova will automatically start a lightweight web server from which the resource pack can be downloaded.
+        除非你能够在您的服务器上开放一个 Web 端口, 否则请忽略此方法.
+        Nova 将启动一个 Web 服务器来提供资源包的下载.
     
-        Example config:
+        示例配置:
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
             enabled: true
             service: SelfHost
-            port: 12345 # The port on which the server will be running, needs to be open to the Internet.
+            port: 12345 # Web 服务的端口
         ```
     
-        !!! info "'host' parameter"
+        !!! 关于 "'host' 参数"
     
-            You can also set the host of your server using the `host` parameter. If it is not set, the public ip address of your server gets used.
-            If you are on a local server, you will need to set `host: 127.0.0.1`
+            你可以使用 `host` 参数来设置服务器的主机名. 如果没有设置, 将会使用您服务器的公网 IP.
+            如果你的服务器仅对局域网开放, 你需要设为 `host: 127.0.0.1`
     
-        !!! warning "'portNeeded' parameter"
+        !!! 警告 "'portNeeded' 参数"
     
-            When setting a `host`, Nova assumes that the configured port does not need to be appened after the host in the download URL.
-            If this is not the case, set `portNeeded: true`.
+            当 `host` 被设置时, Nova 会认为端口不必再被加入主机名末尾.
+            如果这不是你需要的情况, 设置 `portNeeded: true`.
     
-    === "Custom Multipart Request (advanced)"
+    === "使用 Multipart Request (高级)"
     
-        For more advanced users, Nova can also perform a multipart request to a server of your choice and parse the response using a regex.
+        对于高级用户, Nova 可以发送请求至你的服务器并解析服务器回应.
     
-        For [this php script](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455), the config would be the following:
+        对于 [这个 php 脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455), 在 Nova 的配置文件中应这样配置:
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
@@ -89,65 +89,65 @@ There are currently three main ways to configure the auto-uploader:
             url: https://example.com/upload.php
             filePartName: pack
             extraparams:
-              key: "" # This key also needs to be set in the php script mentioned above
+              key: "" # 此密钥需要与上方提及的 php 脚本中的密钥一致
         ```
     
-        If the response of your uploader is in a different format such as JSON, you will need to set the ``urlRegex`` parameter which encloses the URL in the first group of the first match.
-        For example, for a response like this 
+        如果你的上传服务返回的数据是另一种格式如 JSON, 你将需要设置 ``urlRegex`` 参数来匹配数据中的 url.
+        例如, 如果服务器返回数据如下:
         ```json
         {
           "state": "success",
           "url": "https://example.com/ResourcePack.zip"
         }
         ```
-        the regex could be ``"url": "([\w:/\.]*)``.
+        那么正则表达式可以为 ``"url": "([\w:/\.]*)``.
 
-## Step 3: Installing addons
+## Step 3: 安装扩展
 
-To install an addon:
+如何安装一个扩展:
 
-* Stop the server
-* Drag & drop the addon jar file into ``plugins/Nova/addons/``
-* Start the server again
+* 关闭服务器
+* 将扩展放至 ``plugins/Nova/addons/`` 目录内
+* 启动服务器
 
-The new resource pack will be automatically generated and uploaded using the configured auto-uploader.
+新的资源包将会自动生成.
 
-!!! info
+!!! 注意
 
-    Some addons might require other addons in order to work. If this is the case, an error in the console will notify you of the missing addons: `Failed to initialize <Name of the Addon>: Missing addon(s): <Name(s) of the required addon(s) that are missing`
+    某些扩展可能会依赖其它扩展. 如果此情况存在, 控制台中的报错信息会提示你缺少的扩展: `Failed to initialize <扩展名>: Missing addon(s): <缺失的扩展>`
 
-## (optional) ResourcePack Merging
+## (可选) 资源包合并
 
-**This step is only required if your server is already using a custom resource pack.**
+**此步骤仅在你的服务器已经有一个自定义资源包时需要.**
 
-Due to technical limitations, it is only possible to have one server resource pack. To circumvent this issue, Nova can automatically merge existing resource packs with its own.  
+由于 Minecraft 的机制, 一个服务器只能提供一个资源包. 为了解决这个问题, Nova 可以自动合并已经存在的资源包.  
 
-Currently, there are two ways to define base packs:  
+目前, 有两种方法定义原资源包:  
 
-=== "With Config"
+=== "使用配置文件"
 
-    * Make sure to turn off the custom resource pack in the config of the plugin providing it
-    * Link to the resource pack directory or zip file in the Nova config under ``resource_pack.base_packs``
+    * 确保你关闭了另一个提供资源包的插件的资源包发送功能
+    * 在 Nova 配置文件中的 ``resource_pack.base_packs`` 设置原资源包路径
 
-    Example:
+    示例:
     ```yaml title="plugins/Nova/configs/config.yml"
     resource_pack:
       base_packs:
         - plugins/ItemsAdder/data/resource_pack/pack.zip
     ```
 
-    !!! info
+    !!! 注释
     
-        You can add as many base packs as you want.
+        你可以添加更多资源包.
     
-        **Note:** Before building the resource pack with Nova, make sure that the listed base packs have been properly generated.
-        For example, ItemsAdder requires running ``/iazip`` to generate its resource pack.
+        **注意:** 在用 Nova 生成资源包之前, 确保列表中的资源包已被正确生成.
+        例如, ItemsAdder 插件需要使用 ``/iazip`` 指令来生成资源包.
 
-=== "With Folder"
+=== "使用文件夹"
 
-    * Make sure to turn off the custom resource pack in the config of the plugin providing it
-    * Copy the resource pack directory or zip file to `plugins/Nova/resource_pack/base_packs/`
+    * 确保你关闭了另一个提供资源包的插件的资源包发送功能
+    * 将资源包复制到 `plugins/Nova/resource_pack/base_packs/`
 
-        !!! info
+        !!! 注释
     
-            You can add as many base packs as you want.
+            你可以添加更多资源包.
