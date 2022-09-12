@@ -136,7 +136,7 @@ resource_pack:
         - plugins/ItemsAdder/data/resource_pack/pack.zip
     ```
 
-    !!! 注释
+    !!! 提示
     
         你可以添加更多资源包.
     
@@ -148,6 +148,6 @@ resource_pack:
     * 确保你关闭了另一个提供资源包的插件的资源包发送功能
     * 将资源包复制到 `plugins/Nova/resource_pack/base_packs/`
 
-        !!! 注释
+        !!! 提示
     
             你可以添加更多资源包.
