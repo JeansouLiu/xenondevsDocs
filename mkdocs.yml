@@ -131,7 +131,7 @@ nav:
           - "FAQ": "nova/admin/faq.md"
       - "Addons":
           - "Getting Started": "nova/addon/getting-started.md"
-          - "addon.yml": "nova/addon/addon.yml.md"
+          - "Configure Addon": "nova/addon/addon-configuration.md"
           - "AssetPacks":
               - "Basics": "nova/addon/asset-packs/assetpack-basics.md"
               - "Creating Items": "nova/addon/asset-packs/creating-items.md"
@@ -153,9 +153,10 @@ nav:
                   - "TileEntity Data": "nova/addon/blocks/tileentity/data.md"
                   - "Holders": "nova/addon/blocks/tileentity/holders.md"
                   - "Upgrades": "nova/addon/blocks/tileentity/upgrades.md"
+                  - "Regions": "nova/addon/blocks/tileentity/region.md"
                   - "Particles": "nova/addon/blocks/tileentity/particles.md"
           - "GUI Textures": "nova/addon/guitexture.md"
-          - "Actionbar Overlays": "nova/addon/actionbaroverlay.md"
+          - "Overlays": "nova/addon/overlays.md"
           - "Advancements": "nova/addon/advancements.md"
           - "Attachments": "nova/addon/attachments.md"
           - "Abilities": "nova/addon/abilities.md"
