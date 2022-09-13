@@ -75,8 +75,8 @@
 === "amount_per_world"
 
     ```yaml
-    # This example config sets a maximum of one
-    # quarry per player per world.
+    # 此实例配置设置单个玩家最多可以
+    # 在单个世界放置 1 个 quarry.
     performance:
       tile_entity_limits:
         amount_per_world:
