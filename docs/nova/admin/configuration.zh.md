@@ -83,13 +83,13 @@
           machines:quarry: 1
     ```
 
-## Upgrade values
+## 升级难度
 
-The upgrade values for the default upgrade types `speed`, `efficiency`, `energy`, `fluid` and `range`
-are not located in the main config `plugins/Nova/configs/config.yml` but in `plugins/Nova/configs/nova/upgrade_values.json`.
-This separation is done intentionally to indicate that every addon can have its own `upgrade_values.json` file for their own upgrade types.
+默认升级难度 `speed`, `efficiency`, `energy`, `fluid` and `range`
+并不在 `plugins/Nova/configs/config.yml` 文件中而是在 `plugins/Nova/configs/nova/upgrade_values.json`.
+这样是为了确保每个扩展都有它自己的 `upgrade_values.json` 文件.
 
-The config for the default upgrades looks like this:
+默认升级难度配置如下:
 ```yaml
 speed: [ 1.0, 1.91, 2.82, 3.73, 4.64, 5.55, 6.46, 7.37, 8.28, 9.19, 10.0 ]
 efficiency: [ 1.0, 1.25, 1.75, 2.75, 3.75, 4.75, 5.75, 6.75, 7.75, 8.75, 9.75 ]
@@ -98,8 +98,8 @@ fluid: [ 1.0, 1.9, 2.8, 3.7, 4.6, 5.5, 6.4, 7.3, 8.2, 9.1, 10.0 ]
 range: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 ```
 
-The amount of values in the arrays specifies the amount of upgrades that can be added, the numbers themselves are the modifiers.
-Depending on the type of upgrade, these values might be a multipliers or in the case of the range upgrade, are just added on top of the default max range.
+数组中的数字定义了可被添加的升级数量, 数值代表速率.
+根据升级的类型, 这些值可能是速率或是升级范围, are just added on top of the default max range.
 
 The upgrade values can also be changed for specific tile-entities by adding a `upgrade_values` section to the config of that tile-entity.
 For example, the default limit of range upgrades for the Pump from the Machines addon is changed to 30 this way:
