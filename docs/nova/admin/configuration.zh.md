@@ -7,7 +7,7 @@
 本页面仅对更为复杂的选项进行说明。
 
 ## 物品菜单
-不可能会需要自定义 Nova 的物品菜单. 你只需编辑 `plugins/Nova/configs/item_categories.yml` 即可. 你可以在该文件中添加或删除分类、更换图标、修改名称或是物品材料.
+你可能会需要自定义 Nova 的物品菜单. 你只需编辑 `plugins/Nova/configs/item_categories.yml` 即可. 你可以在该文件中添加或删除分类、更换图标、修改名称或是物品材料.
 
 !!! 警告
 
