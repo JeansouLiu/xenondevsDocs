@@ -99,10 +99,10 @@ range: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 ```
 
 数组中的数字定义了可被添加的升级数量, 数值代表速率.
-根据升级的类型, 这些值可能是速率或是升级范围, are just added on top of the default max range.
+根据升级的类型, 这些值可能是速率或是升级范围, 与默认最大范围叠加.
 
-The upgrade values can also be changed for specific tile-entities by adding a `upgrade_values` section to the config of that tile-entity.
-For example, the default limit of range upgrades for the Pump from the Machines addon is changed to 30 this way:
+指定方块实体的升级难度也可以通过在该方块实体配置文件中添加 `upgrade_values` 选项来修改.
+例如, 以下配置修改 Machines 扩展中的 Pump 的默认升级范围为 30:
 ```yaml
 upgrade_values:
   range: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 ]
