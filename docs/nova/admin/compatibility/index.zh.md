@@ -16,7 +16,7 @@
 
 !!! 警告
 
-    这里的大多数插件都需要[合并资源包](../setup.md#optional-resourcepack-merging).  
+    这里的大多数插件都需要[合并资源包](../setup.md#_3).  
     你可能也需要阅读[疑难解答页面](troubleshooting.md).
 
 ## 保护类插件
