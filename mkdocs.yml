@@ -112,6 +112,7 @@ plugins:
           "Advancements": 进度
           "Recipes": 配方
           "Structure": 结构
+          "Configure Addon": 配置扩展
 
 nav:
   - "Nova":

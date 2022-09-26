@@ -71,10 +71,10 @@ resource_pack:
             你可以使用 `host` 参数来设置服务器的主机名. 如果没有设置, 将会使用您服务器的公网 IP.
             如果你的服务器仅对局域网开放, 你需要设为 `host: 127.0.0.1`
     
-        !!! 警告 "'portNeeded' 参数"
+        !!! 警告 "'append_port' 参数"
     
             当 `host` 被设置时, Nova 会认为端口不必再被加入主机名末尾.
-            如果这不是你需要的情况, 设置 `portNeeded: true`.
+            如果这不是你需要的情况, 设置 `append_port: true`.
     
     === "使用 Multipart Request (高级)"
     
@@ -88,7 +88,7 @@ resource_pack:
             service: CustomMultiPart
             url: https://example.com/upload.php
             filePartName: pack
-            extraparams:
+            extraParams:
               key: "" # 此密钥需要与上方提及的 php 脚本中的密钥一致
         ```
     
@@ -101,6 +101,23 @@ resource_pack:
         }
         ```
         那么正则表达式可以为 ``"url": "([\w:/\.]*)``.
+	=== "S3"
+
+        如果你使用的是 Amazon S3, 你可以使用 S3 服务来上传资源包. **你需要开放 S3 
+        容器的公开网络访问权限.**
+
+        实例配置:
+        ```yaml title="plugins/Nova/configs/config.yml"
+        resource_pack:
+          auto_upload:
+            enabled: true
+            service: S3
+            endpoint: s3.amazonaws.com # 你的 S3 服务的 endpoint
+            region: eu-central-1 # 你的 S3 服务的 endpoint 区域
+            bucket: examplebucket # 你的 S3 容器的名称
+            key_id: "" # 你的 S3 key id
+            key_secret: "" # 你的 S3 key secret
+        ```
 
 ## Step 3: 安装扩展
 

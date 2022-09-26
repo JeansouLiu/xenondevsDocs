@@ -19,7 +19,7 @@
 方块实体限制选项位于配置文件中的 `performance.tile_entity_limits`.  
 拥有 `nova.misc.bypassTileEntityLimits` 权限的玩家将会无视这些限制.
 
-插件提供了 4 种不同的限制条件. 你可以选择一个或多个:
+插件提供了 5 种不同的限制条件. 你可以选择一个或多个:
 
 |       条件名     | 功能                                                                         |
 |:----------------:|:-----------------------------------------------------------------------------|
@@ -27,14 +27,14 @@
 |    type_world    | 阻止玩家在指定世界放置指定类型的方块实体.                                    |
 |      amount      | 设置单个玩家可放置指定类型方块实体的上限.                                    |
 | amount_per_world | 设置单个玩家在每个世界可放置指定类型方块实体的上限.                          |
+| amount_per_chunk | 设置单个玩家在每个区块可放置指定类型方块实体的上限.                          |
 
 实例配置:
 
 === "world"
 
     ```yaml
-    # 此实例配置阻止玩家
-    # 在下界和末地放置方块实体.
+    # 此实例配置阻止玩家在下界和末地放置方块实体.
     performance:
       tile_entity_limits:
         world_blacklist:
@@ -46,8 +46,7 @@
 === "type_world"
 
     ```yaml
-    # 此实例配置阻止玩家
-    # 在主世界放置 quarries 和在下界放置 pulverizers.
+    # 此实例配置阻止玩家在主世界放置 quarries 和在下界放置 pulverizers.
     performance:
       tile_entity_limits:
         world_type_blacklist:
@@ -60,8 +59,7 @@
 === "amount"
 
     ```yaml
-    # 此实例配置设置单个玩家最多可以
-    # 放置 1 个 quarry, 每种类型的 cables 各 50 个.
+    # 此实例配置设置单个玩家最多可以放置 1 个 quarry, 每种类型的 cables 各 50 个.
     performance:
       tile_entity_limits:
         amount:
@@ -75,11 +73,22 @@
 === "amount_per_world"
 
     ```yaml
-    # 此实例配置设置单个玩家最多可以
-    # 在单个世界放置 1 个 quarry.
+    # 此实例配置设置单个玩家最多可以在单个世界放置 1 个 quarry.
     performance:
       tile_entity_limits:
         amount_per_world:
+		  '*': 100 # 此项非必需, 但是这个选项可以限制单个玩家在单个世界最多可放置 100 个方块实体.
+          machines:quarry: 1
+    ```
+
+=== "amount_per_chunk"
+
+    ```yaml
+    # 此实例配置设置单个玩家最多可以在单个区块放置方块实体的上限.
+    performance:
+      tile_entity_limits:
+        amount_per_chunk:
+          '*': 5 # Not mandatory, but this option would limit the total amount of tile-entities to 5 per player per chunk.
           machines:quarry: 1
     ```
 
