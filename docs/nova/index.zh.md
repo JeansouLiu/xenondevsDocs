@@ -1,5 +1,5 @@
 # Nova 中文文档
 
-![](https://p0.meituan.net/dpplatform/26afd09578891a5c61936e11ed556226318491.png)
+![](https://dd-static.jd.com/ddimg/jfs/t1/83541/29/16953/563255/634a4fc5E253f5b44/d32258557e8e8ec7.png)
 
 使用左边的目录来选择帮助文档.
