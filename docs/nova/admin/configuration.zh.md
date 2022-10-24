@@ -37,7 +37,7 @@
     # 此实例配置阻止玩家在下界和末地放置方块实体.
     performance:
       tile_entity_limits:
-        world_blacklist:
+        world:
           worlds:
             - world_nether
             - world_the_end
@@ -49,7 +49,7 @@
     # 此实例配置阻止玩家在主世界放置 quarries 和在下界放置 pulverizers.
     performance:
       tile_entity_limits:
-        world_type_blacklist:
+        type_world:
           world:
             - machines:quarry
           world_nether:
