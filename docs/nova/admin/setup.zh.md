@@ -6,7 +6,7 @@
 * 启动服务器并等待 Nova 完成加载. (控制台消息 `[Nova] Done loading`). 此时后面会用到的配置文件及目录就创建好了.
 * 关闭服务器.
 
-!!! 警告
+!!! warning "警告"
 
     Nova v0.9 于早期版本的 Nova 并不兼容. 如果你是从早期版本升级, 请确保删除了 ``plugins/Nova`` 目录并从世界中移除了所有 Nova 物品.
 
@@ -25,7 +25,7 @@ resource_pack:
   url: https://example.com/resource_pack.zip
 ```
 
-!!! 警告
+!!! warning "警告"
 
     该链接必须为 **直链** 下载链接.
 
@@ -36,7 +36,7 @@ resource_pack:
 
 目前有三种方式来配置自动上传:
 
-!!! 关于 "可用的上传服务"
+!!! info "可用的上传服务"
 
     === "Patreon 上传服务"
     
@@ -66,12 +66,12 @@ resource_pack:
             port: 12345 # Web 服务的端口
         ```
     
-        !!! 关于 "'host' 参数"
+        !!! info "'host' 参数"
     
             你可以使用 `host` 参数来设置服务器的主机名. 如果没有设置, 将会使用您服务器的公网 IP.
             如果你的服务器仅对局域网开放, 你需要设为 `host: 127.0.0.1`
     
-        !!! 警告 "'append_port' 参数"
+        !!! warning "'append_port' 参数"
     
             当 `host` 被设置时, Nova 会认为端口不必再被加入主机名末尾.
             如果这不是你需要的情况, 设置 `append_port: true`.
@@ -129,7 +129,7 @@ resource_pack:
 
 新的资源包将会自动生成.
 
-!!! 注意
+!!! warning "注意"
 
     某些扩展可能会依赖其它扩展. 如果此情况存在, 控制台中的报错信息会提示你缺少的扩展: `Failed to initialize <扩展名>: Missing addon(s): <缺失的扩展>`
 
@@ -153,7 +153,7 @@ resource_pack:
         - plugins/ItemsAdder/data/resource_pack/pack.zip
     ```
 
-    !!! 提示
+    !!! info "提示"
     
         你可以添加更多资源包.
     
@@ -165,6 +165,6 @@ resource_pack:
     * 确保你关闭了另一个提供资源包的插件的资源包发送功能
     * 将资源包复制到 `plugins/Nova/resource_pack/base_packs/`
 
-        !!! 提示
+        !!! info "提示"
     
             你可以添加更多资源包.
