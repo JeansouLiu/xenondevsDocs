@@ -6,13 +6,13 @@
 未打勾的插件为部分兼容, 某些功能可能不会正常工作.
 
 - [x] [ItemsAdder](itemsadder.md)
-- [x] MMOItems
-- [ ] oraxen (Nova 暂不能识别该插件的方块)
+- [ ] MMOItems
 
 即将兼容:
 
-* 粘液科技
-* Space
+* [Oraxen](oraxen.md)
+* [粘液科技](utp.md)
+* [Space](utp.md)
 
 !!! 警告
 

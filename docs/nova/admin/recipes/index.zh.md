@@ -19,7 +19,7 @@
 "machines:copper_gear"
 ```
 
-With items from Nova addons, it is also possible to use the ``nova:`` prefix instead of the addon's id. This will cause all items from different addons with that id to be accepted. For example, if multiple addons define a ``copper_dust``, ``machines:copper_dust`` would only accept the copper dust from the Machines addon, but ``nova:copper_dust`` would allow any copper dust.
+对于 Nova 扩展提供的物品, 你也可以使用 ``nova:`` 前缀来代替扩展的前缀. 但是这将导致所有使用同一个 ID 但不属于同一个扩展的物品被匹配. For example, if multiple addons define a ``copper_dust``, ``machines:copper_dust`` would only accept the copper dust from the Machines addon, but ``nova:copper_dust`` would allow any copper dust.
 
 ### Complex Item Format
 
