@@ -14,7 +14,7 @@
 * [粘液科技](utp.md)
 * [Space](utp.md)
 
-!!! 警告
+!!! warning
 
     这里的大多数插件都需要[合并资源包](../setup.md#_3).  
     你可能也需要阅读[疑难解答页面](troubleshooting.md).
