@@ -23,6 +23,7 @@
 
 |       条件名     | 功能                                                                         |
 |:----------------:|:-----------------------------------------------------------------------------|
+|       type       | 阻止玩家放置某种方块实体.                                                    |
 |      world       | 阻止玩家在指定世界放置方块实体.                                              |
 |    type_world    | 阻止玩家在指定世界放置指定类型的方块实体.                                    |
 |      amount      | 设置单个玩家可放置指定类型方块实体的上限.                                    |
@@ -31,10 +32,20 @@
 
 实例配置:
 
+=== "type"
+
+    ```yaml
+    # 此示例配置阻止玩家放置 quarry.
+    performance:
+      tile_entity_limits:
+        type:
+          - machines:quarry
+    ```
+
 === "world"
 
     ```yaml
-    # 此实例配置阻止玩家在下界和末地放置方块实体.
+    # 此示例配置阻止玩家在下界和末地放置方块实体.
     performance:
       tile_entity_limits:
         world:
@@ -63,6 +74,7 @@
     performance:
       tile_entity_limits:
         amount:
+		  '*': 100 # 可选, 此选项将限制每个玩家只能放置 100 个方块实体.
           machines:quarry: 1
           logistics:basic_cable: 50
           logistics:advanced_cable: 50
@@ -77,7 +89,7 @@
     performance:
       tile_entity_limits:
         amount_per_world:
-		  '*': 100 # 此项非必需, 但是这个选项可以限制单个玩家在单个世界最多可放置 100 个方块实体.
+		  '*': 100 # 可选, 此选项限制每个玩家在每个世界最多放置 100 个方块实体.
           machines:quarry: 1
     ```
 
@@ -88,7 +100,7 @@
     performance:
       tile_entity_limits:
         amount_per_chunk:
-          '*': 5 # Not mandatory, but this option would limit the total amount of tile-entities to 5 per player per chunk.
+          '*': 5 # 可选, 此选项限制每个玩家在每个区块最多放置 5 个方块实体.
           machines:quarry: 1
     ```
 
@@ -107,11 +119,11 @@ fluid: [ 1.0, 1.9, 2.8, 3.7, 4.6, 5.5, 6.4, 7.3, 8.2, 9.1, 10.0 ]
 range: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 ```
 
-数组中的数字定义了可被添加的升级数量, 数值代表速率.
-根据升级的类型, 这些值可能是速率或是升级范围, 与默认最大范围叠加.
+数组中的数字定义了可被添加的升级数量, 数值代表 modifiers.
+根据升级的类型, 这些值可能是倍率, 也可能是在 range upgrade 的情况下与默认最大范围叠加.
 
 指定方块实体的升级难度也可以通过在该方块实体配置文件中添加 `upgrade_values` 选项来修改.
-例如, 以下配置修改 Machines 扩展中的 Pump 的默认升级范围为 30:
+例如, 以下配置修改 Machines 扩展中的 Pump 的默认 range upgrades 限制为 30:
 ```yaml
 upgrade_values:
   range: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 ]
