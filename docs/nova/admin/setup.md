@@ -6,10 +6,6 @@
 * Start your server and wait until Nova is done loading. (Indicated by the message in the console `[Nova] Done loading`). This creates config files and directories which you will need to access in the following steps.
 * Stop your server.
 
-!!! warning
-
-    Nova v0.9 is not compatible with earlier versions of Nova. If you're updating from an earlier version, make sure to delete the ``plugins/Nova`` folder and remove all items and blocks from Nova from your world.
-
 ## Step 2: ResourcePack Hosting
 
 Due to the way custom resource packs work, it is required to upload them to a web server first before they can be sent to players.  
@@ -101,7 +97,7 @@ There are currently three main ways to configure the auto-uploader:
         }
         ```
         the regex could be ``"url": "([\w:/\.]*)``.
-    === "S3"
+    === "Amazon S3"
 
         If you are using Amazon S3, you can use the S3 service to upload the resource pack. **You have to expose your S3 
         bucket to the Internet yourself.**
@@ -131,7 +127,7 @@ The new resource pack will be automatically generated and uploaded using the con
 
 !!! info
 
-    Some addons might require other addons in order to work. If this is the case, an error in the console will notify you of the missing addons: `Failed to initialize <Name of the Addon>: Missing addon(s): <Name(s) of the required addon(s) that are missing`
+    Some addons might require other addons in order to work. If this is the case, an error in the console will notify you of the missing addons: `Failed to initialize <Name of the Addon>: Missing addon(s): <Name(s) of the required addon(s) that are missing>`
 
 ## (optional) ResourcePack Merging
 
@@ -143,14 +139,14 @@ Currently, there are two ways to define base packs:
 
 === "With Config"
 
-    * Make sure to turn off the custom resource pack in the config of the plugin providing it
+    * Make sure to turn off the resource pack prompt in the config of the plugin providing it
     * Link to the resource pack directory or zip file in the Nova config under ``resource_pack.base_packs``
 
     Example:
     ```yaml title="plugins/Nova/configs/config.yml"
     resource_pack:
       base_packs:
-        - plugins/ItemsAdder/data/resource_pack/pack.zip
+        - plugins/ItemsAdder/output/generated.zip
     ```
 
     !!! info
@@ -162,7 +158,7 @@ Currently, there are two ways to define base packs:
 
 === "With Folder"
 
-    * Make sure to turn off the custom resource pack in the config of the plugin providing it
+    * Make sure to turn off the resource pack prompt in the config of the plugin providing it
     * Copy the resource pack directory or zip file to `plugins/Nova/resource_pack/base_packs/`
 
         !!! info
