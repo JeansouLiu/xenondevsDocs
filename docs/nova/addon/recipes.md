@@ -3,24 +3,23 @@
 ## Adding recipes to your addon
 Recipes files are placed under `recipes/<namespace>/type`, where the `namespace` is the namespace of the addon that
 registered this recipe type (`minecraft` for Minecraft recipe types) and `type` the name of the recipe type.  
-For more information about the recipe format and default recipe types, [read the admin page on it](../admin/recipes).
+For more information about the recipe format and default recipe types, [read the admin page on it](../../admin/recipes).
 
 ## Creating a custom Recipe Type
 Recipe types are registered over the `RecipeTypeRegistry`.  
 All of the following values are required to create a new `RecipeType`:
 
-|      Name      |          Type           | Usage                                                                                                         |
-|:--------------:|:-----------------------:|---------------------------------------------------------------------------------------------------------------|
-|   `dirName`    |        `String`         | The name for the directory of your recipe type.                                                               |
-| `recipeClass`  |       `KClass<T>`       | The class of your recipe type, must be a subclass of `NovaRecipe`.                                            |
-|    `group`     |      `RecipeGroup`      | The recipe group that displays the recipe in the recipe explorer gui.                                         |
-| `deserializer` | `RecipeDeserializer<T>` | The deserializer that deserializes the recipe files to an instance of the previously specified `recipeClass`. |
+|      Name      |           Type           | Usage                                                                                                         |
+|:--------------:|:------------------------:|---------------------------------------------------------------------------------------------------------------|
+|   `dirName`    |         `String`         | The name for the directory of your recipe type.                                                               |
+| `recipeClass`  |       `KClass<T>`        | The class of your recipe type, must be a subclass of `NovaRecipe`.                                            |
+|    `group`     |      `RecipeGroup?`      | The recipe group that displays the recipe in the recipe explorer gui.                                         |
+| `deserializer` | `RecipeDeserializer<T>?` | The deserializer that deserializes the recipe files to an instance of the previously specified `recipeClass`. |
 
 !!! danger "Attention"
 
-    These values are only nullable for testing purposes (i.e. you want to test your deserializer but don't have a
-    `RecipeGroup` yet).  
-    They should **never** be `null` on a live build!
+    Setting `RecipeGroup` to null can lead to exceptions being thrown when players try to view recipes from that type.  
+    This parameter might be made non-null in the future.
 
 !!! example "Creating a custom Recipe Type"
 

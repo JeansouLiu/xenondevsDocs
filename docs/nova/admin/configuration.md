@@ -11,7 +11,8 @@ You might want to customize the Nova items menu. In order to do that, just edit 
 
 !!! warning
 
-    After applying changes to `item_categories.json`, the file will not be automatically updated anymore. This will cause items from newly added or updated items to not appear and will prevent Nova from working properly after removing an addon whose items are listed here.
+    After modifying `item_categories.json`, the file will not be automatically updated anymore.
+    This will prevent items from newly added addons from appearing, so you will have to add those yourself.
 
 ## Tile-Entity limits
 
@@ -19,10 +20,11 @@ With tile-entity limits, you can create restrictions on which tile-entities play
 Tile-Entity limits are configured in the `performance.tile_entity_limits` section.  
 Players with the permission `nova.misc.bypassTileEntityLimits` will be able to bypass these restrictions.
 
-There are 5 different limiters. You can choose one or combine multiple:
+There are 6 different limiters. You can choose one or combine multiple:
 
 |       Name       | Description                                                                     |
 |:----------------:|:--------------------------------------------------------------------------------|
+|       type       | Prevent placing a specific tile-entity.                                         |
 |      world       | Prevent placing tile entities in specific worlds.                               |
 |    type_world    | Prevent placing specific tile-entities in specific worlds.                      |
 |      amount      | Set a maximum amount of tile-entities of a type for each player.                |
@@ -31,6 +33,16 @@ There are 5 different limiters. You can choose one or combine multiple:
 
 Example configs:
 
+=== "type"
+
+    ```yaml
+    # This example config prevents players from placing the quarry.
+    performance:
+      tile_entity_limits:
+        type:
+          - machines:quarry
+    ```
+
 === "world"
 
     ```yaml
@@ -38,9 +50,8 @@ Example configs:
     performance:
       tile_entity_limits:
         world:
-          worlds:
-            - world_nether
-            - world_the_end
+          - world_nether
+          - world_the_end
     ```
 
 === "type_world"
