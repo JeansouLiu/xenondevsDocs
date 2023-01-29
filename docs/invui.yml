@@ -1,4 +1,5 @@
 INHERIT: base.yml
+site_url: https://xenondevs.tree.pink/invui/
 docs_dir: invui
 site_dir: sites/invui
 site_name: InvUI Documentation
