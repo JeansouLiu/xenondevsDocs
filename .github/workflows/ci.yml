@@ -6,21 +6,21 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs/sites
     steps:
       - uses: actions/checkout@v3
-        with:
-          path: 'docs/sites'
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: pip install mkdocs-static-i18n
       - run: |
-          cd /home/runner/work/xenondevsDocs/xenondevsDocs
-          mkdocs build -f docs/nova.yml
-          mkdocs build -f docs/invui.yml
-          mkdocs build -f docs/cbf.yml
-          mv docs/sites/nova/CNAME docs/sites/CNAME
+          mkdocs build -f ../nova.yml
+          mkdocs build -f ../invui.yml
+          mkdocs build -f ../cbf.yml
+          mv nova/CNAME CNAME
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
