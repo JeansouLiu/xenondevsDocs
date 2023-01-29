@@ -15,11 +15,12 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: pip install mkdocs-static-i18n
-      - run: cd /home/runner/work/xenondevsDocs/xenondevsDocs
-      - run: mkdocs build -f docs/nova.yml
-      - run: mkdocs build -f docs/invui.yml
-      - run: mkdocs build -f docs/cbf.yml
-      - run: mv docs/sites/nova/CNAME docs/sites/CNAME
+      - run: |
+          cd /home/runner/work/xenondevsDocs/xenondevsDocs
+          mkdocs build -f docs/nova.yml
+          mkdocs build -f docs/invui.yml
+          mkdocs build -f docs/cbf.yml
+          mv docs/sites/nova/CNAME docs/sites/CNAME
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
