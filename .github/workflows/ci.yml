@@ -19,9 +19,8 @@ jobs:
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          cd docs/sites
-          cp nova/CNAME CNAME
+          cp docs/sites/nova/CNAME docs/sites/CNAME
           git checkout --orphan gh-pages
-          git add .
+          git add docs/sites/*
           git commit -m "docs"
           git push --set-upstream origin gh-pages --force
