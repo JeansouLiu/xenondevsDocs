@@ -1,7 +1,7 @@
-site_url: https://xenondevs.xyz/docs/
-repo_url: https://github.com/xenondevs/Docs
-repo_name: xenondevs/Docs
-copyright: Copyright &copy; 2022 xenondevs
+site_url: https://xenondevs.tree.pink/
+repo_url: https://github.com/xenondevs/Nova
+repo_name: xenondevs/Nova
+copyright: Copyright &copy; 2023 xenondevs. Chinese translation provided by NetheriteTree.
 
 extra:
   social:
@@ -11,12 +11,28 @@ extra:
       link: https://discord.com/invite/EpVMXtXB2t
     - icon: fontawesome/brands/patreon
       link: https://patreon.com/xenondevs
+    - icon: fontawesome/solid/pen
+      link: https://github.com/NetheriteTree/xenondevsDocs
+      name: 完善中文翻译
+  analytics:
+    provider: google
+    property: G-D07WH8Y481
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 简体中文
+      link: /zh/
+      lang: zh
 
 theme:
   name: material
+  font: false
   logo: assets/logo.png
   palette:
     scheme: slate
+    primary: deep purple
+    accent: green
   icon:
     repo: fontawesome/brands/github
 

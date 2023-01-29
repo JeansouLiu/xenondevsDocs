@@ -21,3 +21,28 @@ nav:
       - "Tab GUI": "guis/tab.md"
   - "Windows": "windows.md"
   - "VirtualInventory": "virtualinventory.md"
+
+plugins:
+  - i18n:
+      default_language: en
+      languages:
+        en:
+          name: English
+          site_name: InvUI Documentation
+        zh:
+          name: 简体中文
+          site_name: InvUI 帮助文档
+      nav_translations:
+        zh:
+          "Getting Started": "入门"
+          "Basics": "基础"
+          "Items": "物品"
+          "Structure": "结构"
+          "GUIs": "GUIs"
+          "Overview": "开始之前"
+          "Normal GUI": "普通 GUI"
+          "Paged GUI": "可翻页 GUI"
+          "Scroll GUI": "可滚动 GUI"
+          "Tab GUI": "Tab GUI"
+          "Windows": "Windows"
+          "VirtualInventory": "虚拟背包"

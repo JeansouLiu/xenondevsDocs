@@ -74,3 +74,57 @@ nav:
       - "Recipes": "addon/recipes.md"
       - "Migration Guide":
           - "0.11 ➝ 0.12": "addon/migration-guide/0.11-0.12.md"
+
+plugins:
+  - i18n:
+      default_language: en
+      languages:
+        en:
+          name: English
+          site_name: Nova Documentation
+        zh:
+          name: 简体中文
+          site_name: Nova 帮助文档
+      nav_translations:
+        zh:
+          "Setup & Configuration": "安装 & 配置"
+          "Setup": 插件安装
+          "Configuration": 插件配置
+          "Compatibility": 兼容性
+          "List of compatible Plugins": 兼容的插件
+          "Troubleshooting": 疑难解答
+          "Recipes": 合成配方
+          "Custom Recipes": 自定义配方
+          "Vanilla Recipe Types": 工作台配方
+          "Machines Recipe Types": 其它配方
+          "FAQ": 常见问题
+          "Plugin API": "插件 API"
+          "Getting Started": 入门
+          "Configure Addon": 配置扩展
+          "AssetPacks": 资源包
+          "Basics": 基础
+          "Creating Items": 创建物品
+          "Creating Blocks": 创建方块
+          "Creating GUIs": "创建 GUI"
+          "Language Files": 语言文件
+          "Items": 物品相关
+          "Registering Materials": 物品材料
+          "Item Behaviors": 物品行为
+          "Using ItemNovaMaterial": "使用 ItemNovaMaterial"
+          "Item Categories": 物品分类
+          "Tools": 工具
+          "Configs": 配置文件
+          "Blocks": 方块相关
+          "TileEntities": 方块实体
+          "Config": 配置文件
+          "TileEntity Data": 方块实体数据
+          "Holders": Holders
+          "Upgrades": 升级
+          "Regions": 区域
+          "Particles": 粒子效果
+          "GUI Textures": "GUI 纹理"
+          "Overlays": Overlays
+          "Advancements": 进度
+          "Attachments": Attachments
+          "Abilities": 技能
+          "Migration Guide": 版本更新

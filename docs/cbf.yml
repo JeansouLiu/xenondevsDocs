@@ -14,3 +14,17 @@ nav:
   - "Instance Creators": "instancecreator.md"
   - "Serialization": "serialization.md"
   - "Compounds": "compound.md"
+
+plugins:
+  - i18n:
+      default_language: en
+      languages:
+        en:
+          name: English
+          site_name: CBF Documentation
+        zh:
+          name: 简体中文
+          site_name: CBF 帮助文档
+      nav_translations:
+        zh:
+          "Getting Started": "入门"
