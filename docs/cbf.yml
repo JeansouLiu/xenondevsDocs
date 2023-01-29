@@ -5,6 +5,15 @@ site_dir: sites/cbf
 site_name: CBF Documentation
 edit_uri: edit/main/docs/cbf/
 
+extra:
+  alternate:
+    - name: English
+      link: /cbf/en/
+      lang: en
+    - name: 简体中文
+      link: /cbf/zh/
+      lang: zh
+
 theme:
   features:
     - content.tabs.link
@@ -18,6 +27,16 @@ nav:
   - "Compounds": "compound.md"
 
 plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: false
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+      css_files:
+        - assets/stylesheets/extra.css
   - i18n:
       default_language: en
       languages:

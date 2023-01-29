@@ -5,6 +5,15 @@ site_dir: sites/invui
 site_name: InvUI Documentation
 edit_uri: edit/main/docs/invui/
 
+extra:
+  alternate:
+    - name: English
+      link: /invui/en/
+      lang: en
+    - name: 简体中文
+      link: /invui/zh/
+      lang: zh
+
 theme:
   features:
     - content.tabs.link
@@ -25,6 +34,16 @@ nav:
   - "VirtualInventory": "virtualinventory.md"
 
 plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: false
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+      css_files:
+        - assets/stylesheets/extra.css
   - i18n:
       default_language: en
       languages:

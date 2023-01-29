@@ -16,13 +16,6 @@ extra:
   analytics:
     provider: google
     property: G-D07WH8Y481
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: 简体中文
-      link: /zh/
-      lang: zh
 
 theme:
   name: material
@@ -53,18 +46,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - tables
-
-plugins:
-  - search
-  - minify:
-      minify_html: true
-      minify_js: false
-      minify_css: true
-      htmlmin_opts:
-        remove_comments: true
-      cache_safe: true
-      css_files:
-        - assets/stylesheets/extra.css
 
 extra_css:
   - assets/stylesheets/extra.css
