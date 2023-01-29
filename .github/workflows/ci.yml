@@ -7,12 +7,21 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: pip install mkdocs-static-i18n
-      - run: mkdocs build -f docs/cbf.yml --clean
-      - run: mkdocs build -f docs/invui.yml --dirty
-      - run: mkdocs gh-deploy -f docs/nova.yml --dirty --force --no-history
+      - run: mkdocs build -f docs/cbf.yml
+      - run: mkdocs build -f docs/invui.yml
+      - run: mkdocs build -f docs/nova.yml
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          cd /home/runner/work/xenondevsDocs/xenondevsDocs/docs/sites
+          cp /home/runner/work/xenondevsDocs/xenondevsDocs/docs/sites/nova/CNAME /home/runner/work/xenondevsDocs/xenondevsDocs/docs/sites/CNAME
+          git checkout --orphan gh-pages
+          git add .
+          git commit -m "docs"
+          git push --force
