@@ -16,11 +16,17 @@ jobs:
       - run: mkdocs build -f docs/cbf.yml
       - run: mkdocs build -f docs/invui.yml
       - run: mkdocs build -f docs/nova.yml
-      - run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          cp docs/sites/nova/CNAME docs/sites/CNAME
-          git checkout --orphan gh-pages
-          git add docs/sites/*
-          git commit -m "docs"
-          git push --set-upstream origin gh-pages --force
+      - name: copy
+        env:
+          SRC_FOLDER_PATH: 'docs/sites'
+          TARGET_BRANCH: 'gh-pages'
+        run: |
+          files=$(find $SRC_FOLDER_PATH -type f)
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git fetch
+          git checkout --orphan $TARGET_BRANCH
+          git checkout ${GITHUB_REF##*/} -- $files
+          git add -A
+          git diff-index --quiet HEAD || git commit -am "deploy files"
+          git push origin $TARGET_BRANCH --force
