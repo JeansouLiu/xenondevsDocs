@@ -1,5 +1,6 @@
 INHERIT: base.yml
 docs_dir: cbf
+site_dir: sites/cbf
 site_name: CBF Documentation
 edit_uri: edit/main/docs/cbf/
 

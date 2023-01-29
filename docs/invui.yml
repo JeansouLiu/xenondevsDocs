@@ -1,5 +1,6 @@
 INHERIT: base.yml
 docs_dir: invui
+site_dir: sites/invui
 site_name: InvUI Documentation
 edit_uri: edit/main/docs/invui/
 
