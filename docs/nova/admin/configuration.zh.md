@@ -30,7 +30,7 @@
 | amount_per_world | 设置单个玩家在每个世界可放置指定类型方块实体的上限.                          |
 | amount_per_chunk | 设置单个玩家在每个区块可放置指定类型方块实体的上限.                          |
 
-实例配置:
+示例配置:
 
 === "type"
 
@@ -104,13 +104,13 @@
           machines:quarry: 1
     ```
 
-## 升级难度
+## 升级值
 
-默认升级难度 `speed`, `efficiency`, `energy`, `fluid` and `range`
-并不在 `plugins/Nova/configs/config.yml` 文件中而是在 `plugins/Nova/configs/nova/upgrade_values.json`.
+预设升级方式 `speed`, `efficiency`, `energy`, `fluid` 和 `range` 的升级值设置
+并不在 `plugins/Nova/configs/config.yml` 文件中，而是在 `plugins/Nova/configs/nova/upgrade_values.json` 文件中.
 这样是为了确保每个扩展都有它自己的 `upgrade_values.json` 文件.
 
-默认升级难度配置如下:
+预设升级配置如下:
 ```yaml
 speed: [ 1.0, 1.91, 2.82, 3.73, 4.64, 5.55, 6.46, 7.37, 8.28, 9.19, 10.0 ]
 efficiency: [ 1.0, 1.25, 1.75, 2.75, 3.75, 4.75, 5.75, 6.75, 7.75, 8.75, 9.75 ]
@@ -119,11 +119,11 @@ fluid: [ 1.0, 1.9, 2.8, 3.7, 4.6, 5.5, 6.4, 7.3, 8.2, 9.1, 10.0 ]
 range: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 ```
 
-数组中的数字定义了可被添加的升级数量, 数值代表 modifiers.
-根据升级的类型, 这些值可能是倍率, 也可能是在 range upgrade 的情况下与默认最大范围叠加.
+数组中的数字定义了可被添加的升级值, 这些数字是一些修饰符.
+根据升级的类型, 这些值将是倍率, 或是在 range 升级的情况下与默认区间最大值叠加.
 
-指定方块实体的升级难度也可以通过在该方块实体配置文件中添加 `upgrade_values` 选项来修改.
-例如, 以下配置修改 Machines 扩展中的 Pump 的默认 range upgrades 限制为 30:
+方块实体的升级值可以通过在该方块实体配置文件中添加 `upgrade_values` 选项来修改.
+例如, 以下配置修改机械扩展中泵的默认 range 升级限制为 30:
 ```yaml
 upgrade_values:
   range: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 ]

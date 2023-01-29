@@ -1,8 +1,7 @@
 # 自定义配方
 
-在 Nova 中, 你可以修改所有的合成配方。你可以在 ``plugins/Nova/recipes`` 目录中找到配置文件。 
-你可以修改或删除已有的配方或添加新配方. 如果我们更新了某个配方, 我们将只会
-更新你的服务器上未被修改的配方.
+在 Nova 中, 你可以修改所有的合成配方。你可以在 ``plugins/Nova/recipes`` 目录中找到配置文件。  
+你可以修改或删除已有的配方或添加新配方. 如果我们更新了配方, Nova 将只会更新配置文件中未被修改的部分.
 
 你可以使用 `/nova reload recipes` 指令来重载所有配方.
 
@@ -12,32 +11,29 @@
 
 ### 自定义物品格式
 
-这种格式将允许你使用 Nova 中的物品或是其它插件中的物品. 比如 ``itemsadder:ruby``
-在此处也是可用的.
+这种格式将允许你使用 Nova 中的物品或是其它插件中的物品. 比如 ``itemsadder:ruby`` 在此处也是可用的.
 
 ```json title="自定义物品格式"
 "machines:copper_gear"
 ```
 
-对于 Nova 扩展提供的物品, 你也可以使用 ``nova:`` 前缀来代替扩展的前缀. 但是这将导致所有使用同一个 ID 但不属于同一个扩展的物品被匹配. For example, if multiple addons define a ``copper_dust``, ``machines:copper_dust`` would only accept the copper dust from the Machines addon, but ``nova:copper_dust`` would allow any copper dust.
+对于 Nova 扩展提供的物品, 你也可以使用 ``nova:`` 前缀来代替扩展的前缀. 但是这将匹配所有使用这个 ID 的物品. 例如, 假如有几个扩展都定义了 ``copper_dust``, ``machines:copper_dust`` 将只会匹配机械扩展的铜尘, 但是 ``nova:copper_dust`` 将会匹配所有.
 
-### Complex Item Format
+### 高级物品格式
 
-This format lets you fully customize the required item. If you use this format, you won't be able to use custom
-namespaces like ``nova:``  
-As this checks the item exactly (only ignoring the item name), you might encounter some issues with enchantments and
-other data stored inside the item.  
-This is the same format as in Minecraft's /give command. As it is in JSON, quotes need to be escaped.
+这种格式将允许你完全自定义所需的物品. 如果你使用这种格式, 你将不能使用自定义命名空间，比如 ``nova:``  
+因为这种检测方式很严格 (只忽略物品名称), 你可能会遇到一些附魔和物品内置数据之类的问题.  
+这与 Minecraft 的 /give 指令的格式相同. 因为是 JSON, 所以引号需要被转义.
 
-```json title="Complex Item Format"
+```json title="高级物品格式"
 "minecraft:potion{\"Potion\": \"minecraft:water\"}"
 ```
 
-## Item- & Recipe Fallbacks
+## 备用物品 & 配方
 
-While this is more intended for developers, item- and recipe fallbacks can also be used by server administrators.
+尽管这个功能是为开发者准备的, 备用物品和备用配方也可以被服务器管理员使用.
 
-**What are item- and recipe fallbacks?**  
+**什么是备用物品和配方?**  
 Fallbacks can be used to define an item or recipe to fall back to when the item could not be found or the recipe could not be loaded.
 This is useful for addon developers as it allows them to use items from other addons in their crafting recipes without creating a hard dependency on that addon.
 
