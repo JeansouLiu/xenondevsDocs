@@ -6,9 +6,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: docs/sites
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v2
@@ -17,13 +14,15 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-static-i18n
       - run: |
-          mkdocs build -f ../nova.yml
-          mkdocs build -f ../invui.yml
-          mkdocs build -f ../cbf.yml
-      - run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git checkout --orphan gh-pages
-          git add .
-          git commit -m "docs"
-          git push --set-upstream origin gh-pages --force
+          mkdocs build -f docs/nova.yml
+          mkdocs build -f docs/invui.yml
+          mkdocs build -f docs/cbf.yml
+      - name: push
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: docs/sites
+          SQUASH_HISTORY: true
+          MESSAGE: "docs"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
