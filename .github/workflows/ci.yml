@@ -20,7 +20,6 @@ jobs:
           mkdocs build -f ../nova.yml
           mkdocs build -f ../invui.yml
           mkdocs build -f ../cbf.yml
-          mv nova/CNAME CNAME
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
