@@ -13,6 +13,6 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: pip install mkdocs-static-i18n
-      - run: mkdocs gh-deploy -f docs/nova.yml --force --no-history
-      - run: mkdocs gh-deploy -f docs/invui.yml
-      - run: mkdocs gh-deploy -f docs/cbf.yml
+      - run: mkdocs build -f docs/cbf.yml --clean
+      - run: mkdocs build -f docs/invui.yml --dirty
+      - run: mkdocs gh-deploy -f docs/nova.yml --dirty --force --no-history
