@@ -116,11 +116,21 @@ plugins:
           "Troubleshooting": 疑难解答
           "Recipes": 合成配方
           "Custom Recipes": 自定义配方
-          "Vanilla Recipe Types": 工作台配方
+          "Vanilla Recipe Types": 原版类型配方
           "Machines Recipe Types": 其它配方
           "FAQ": 常见问题
           "Plugin API": "插件 API"
           "Getting Started": 入门
+          "Protection": 保护
+          "NovaMaterial": NovaMaterial
+          "BlockManager": 方块管理器
+          "BlockState": BlockState
+          "TileEntity": 方块实体
+          "Events": 事件
+          "NovaLoadDataEvent": NovaLoadDataEvent
+          "TileEntityBreakBlockEvent": TileEntityBreakBlockEvent
+          "WailaManager": WailaManager
+          "Addon API": "扩展 API"
           "Configure Addon": 配置扩展
           "AssetPacks": 资源包
           "Basics": 基础
