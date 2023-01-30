@@ -34,25 +34,25 @@
 尽管这个功能是为开发者准备的, 备用物品和备用配方也可以被服务器管理员使用.
 
 **什么是备用物品和配方?**  
-Fallbacks can be used to define an item or recipe to fall back to when the item could not be found or the recipe could not be loaded.
-This is useful for addon developers as it allows them to use items from other addons in their crafting recipes without creating a hard dependency on that addon.
+当物品或配方加载失败时，备用物品和配方将被使用.  
+对于扩展开发者来说，这将允许他们在首选配方中使用其它扩展的物品，但并不需要将该扩展设为硬依赖.
 
-### Item Fallbacks
+### 备用物品
 
-Item fallbacks are defined by adding a semicolon after the item declaration, followed by a second declaration:
-```json title="Item Fallback"
+备用物品的定义方法是在首选物品 ID 后添加一个分号，然后输入备用物品 ID:
+```json title="备用物品"
 "nova:basic_fluid_tank; minecraft:bucket"
 ```
-The recipe loader will first check if ``nova:basic_fluid_tank`` exists. If not, ``minecraft:bucket`` is used.
+配方在加载时将会首先检验 ``nova:basic_fluid_tank`` 是否存在. 如果不存在, ``minecraft:bucket`` 将被使用.
 
-### Recipe Fallbacks
+### 备用配方
 
-In some cases, it makes sense to completely change the structure of a recipe if the items from another addon are missing.  
-For that, just put multiple recipe objects into a json array:
+备用配方一般会在配方中使用了某个未安装扩展的物品时使用.  
+要实现这种功能, 只用在 json 组中加入多个合成配方:
 
-??? example "Example Recipes"
+??? example "示例合成配方"
 
-    === "Normal"
+    === "普通"
 
         ```json title="recipe.json"
         [
@@ -83,11 +83,11 @@ For that, just put multiple recipe objects into a json array:
 
         !!! info
         
-            If required, it is also possible to use item fallbacks inside of recipe fallbacks.
+            如果需要的话, 你甚至可以在配方中使用备用物品.
 
-    === "With failSilently"
+    === "failSilently 选项"
 
-        If you don't want any exceptions in the console if none of the fallbacks could be loaded, you can set the ``failSilently`` boolean to ``true``.
+        如果你不想在控制台中看到备用配方无法加载的报错信息, 你可以设置 ``failSilently`` 为 ``true``.
         
         ```json title="recipe.json"
         {
@@ -121,4 +121,4 @@ For that, just put multiple recipe objects into a json array:
 
         !!! info
         
-            If required, it is also possible to use item fallbacks inside of recipe fallbacks.
+            如果需要的话, 你甚至可以在配方中使用备用物品.

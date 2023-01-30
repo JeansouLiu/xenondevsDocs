@@ -38,7 +38,7 @@ plugins:
       css_files:
         - assets/stylesheets/extra.css
   - i18n:
-      default_language: en
+      default_language: zh
       languages:
         en:
           name: English
