@@ -117,7 +117,7 @@ plugins:
           "Recipes": 合成配方
           "Custom Recipes": 自定义配方
           "Vanilla Recipe Types": 原版类型配方
-          "Machines Recipe Types": 其它配方
+          "Machines Recipe Types": 机械扩展配方
           "FAQ": 常见问题
           "Plugin API": "插件 API"
           "Getting Started": 入门

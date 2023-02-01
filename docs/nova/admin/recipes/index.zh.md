@@ -17,7 +17,7 @@
 "machines:copper_gear"
 ```
 
-对于 Nova 扩展提供的物品, 你也可以使用 ``nova:`` 前缀来代替扩展的前缀. 但是这将匹配所有使用这个 ID 的物品. 例如, 假如有几个扩展都定义了 ``copper_dust``, ``machines:copper_dust`` 将只会匹配机械扩展的铜尘, 但是 ``nova:copper_dust`` 将会匹配所有.
+对于 Nova 扩展提供的物品, 你也可以使用 ``nova:`` 前缀来代替扩展的前缀. 但是这将匹配所有使用这个 ID 的物品. 例如, 假如有几个扩展都定义了 ``copper_dust``, ``machines:copper_dust`` 将只会匹配机械扩展的铜粉, 但是 ``nova:copper_dust`` 将会匹配所有.
 
 ### 高级物品格式
 
