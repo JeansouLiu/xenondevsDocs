@@ -2,7 +2,7 @@
 
 ## 粉碎机配方
 
-This is an example recipe for pulverizing iron ore into iron dust:
+以下示例配置了将铁矿粉碎为铁粉的配方:
 
 ```json title="iron_ore_to_iron_dust.json"
 {
@@ -16,11 +16,11 @@ This is an example recipe for pulverizing iron ore into iron dust:
 }
 ```
 
-## Mechanical Press Recipes
+## 机械冲压机配方
 
-Recipes for the mechanical press are grouped in the sub-folders ``gear/`` and ``plate/``  
-Both use the same syntax.  
-This is an example recipe for pressing an iron plate:
+机械冲压机配方存放在子文件夹 ``gear/`` 和 ``plate/`` 中  
+两者使用同样的格式.  
+下面的示例配置是冲压铁质压力板的配方:
 
 ```json title="iron_ingot_to_iron_plate.json"
 {
@@ -30,14 +30,14 @@ This is an example recipe for pressing an iron plate:
 }
 ```
 
-!!! info "Multiple Choices for Ingredients"
+!!! info "原料多样性"
 
-    If you want to give players multiple item choices for a single ingredient, you can specify an array of strings instead of a single string for the input.
+    如果你想允许玩家使用几种不同的原料来合成同一个物品, 你需要在 ingredients 的每一项中设置多个用逗号分开的原料.
 
-## Fluid Infuser Recipes
+## 液体注入机配方
 
-The Fluid Infuser can be used in two modes: Inserting fluids into an item or extract fluids from an item.  
-This is an example recipe for inserting water into a bucket to create a water bucket:
+液体注入机有两种工作模式: 将液体注入物品或者将液体从物品中抽取出来。  
+下面的示例配置是将水注入桶合成水桶的配方:
 
 ```json title="bucket_to_water_bucket.json"
 {
@@ -49,17 +49,17 @@ This is an example recipe for inserting water into a bucket to create a water bu
   "time": 100
 }
 ```
-!!! abstract "Parameters"
+!!! abstract "参数"
 
-    === "Mode"
+    === "mode"
 
-        The mode specifies if this should be a recipe for inserting (``INSERT``) or extracting (``EXTRACT``) fluids.
+        mode 参数定义此配方是注入 (``INSERT``) 还是抽取 (``EXTRACT``) 液体.
 
-    === "Fluid Type"
+    === "fluid_type"
 
-        Currently, there are only ``WATER`` and ``LAVA``. Custom fluids from other plugins are not supported.
+        目前只支持水 (``WATER``) 和岩浆 (``LAVA``). 暂不支持其它插件的自定义流体.
 
-This is an example recipe for extract water from a water bottle to create an empty bottle:
+下面的示例配置是将水从水瓶中抽取出来从而合成玻璃瓶的配方:
 
 ```json title="potion_to_glass_bottle.json"
 {
@@ -72,17 +72,16 @@ This is an example recipe for extract water from a water bottle to create an emp
 }
 ```
 
-!!! info "Custom Item Format"
+!!! info "自定义物品格式"
 
-    As a water bottle is not its own item, a [Complex Item Format](index.md#complex-item-format) is required here.
+    因为水瓶并没有对应的 ID, 你需要使用[高级物品格式](index.md#_4)来定义它.
 
-## Electric Brewing Stand Recipes
+## 电力酿造台配方
 
-Using these recipes, you can configure which potion types can be created using the electric brewing stand. You're also
-able to configure their ingredients, as well as multipliers for duration and amplifier level and the max amount of these
-levels.
+你可以使用这种配方来配置电力酿造台可以酿造的药水类型.
+你同时也可以配置它们的原料、持续时间及倍率、药水等级以及时长和等级限制.
 
-This recipe would add the luck effect type to the electric brewing stand:
+下面的示例配置将为电力酿造台添加幸运效果配方:
 
 ```json title="luck.json"
 {
@@ -99,28 +98,28 @@ This recipe would add the luck effect type to the electric brewing stand:
 }
 ```
 
-!!! abstract "Parameters"
+!!! abstract "参数"
 
     === "default_time"
 
-        The default time a potion with this effect would have. In ticks, 20 ticks = 1s. This potion would have a default time of 1:30
+        这种药水效果的默认持续时间. 单位是 tick, 20 ticks = 1 秒. 在上面的配置中就是 1 分 30 秒
 
     === "redstone_multiplier"
 
-         The time multiplier when a duration level (one redstone) is added. This means a luck potion with level two duration would last 3:00, level three 4:30 and so on.
+         当时长等级 (一个红石) 增加时，持续时间的倍率. 在上面的配置中就是时长等级 2 的幸运药水的持续时间将是 3 分钟, 时长等级 3 为 4 分 30 秒，以此类推.
 
     === "glowstone_multiplier"
 
-        In Minecraft, when glowstone is added to a potion in order to increase the amplifier level, the duration is reduced. This is represented by this multiplier. A potion with an amplifier of level two would have a duration of 0:45, level three 0:11 and so on.
+        在 Minecraft 中, 当向药水中添加荧石来增加药水等级时, 药水的持续时间将减少. 这在倍率中有所体现. 在上面的配置中，等级 2 的药水将只有 0:45 的持续时间, 等级 3 则只有 0:11，以此类推.
 
     === "max_duration_level"
 
-        The maximum allowed duration level for a potion of this effect. By default, you cannot create an effect with both an increased duration level and an increased amplifier level, but you are able to change this in the config file for the electric brewing stand.
+        此药水效果允许的最大时长等级。默认情况下, 你不能让时长等级和药水等级同时增长, 但是你可以通过修改电力酿造台的配置文件来实现这种设置.
 
     === "max_amplifier_level"
 
-        The maximum allowed amplifier level for a potion of this effect. By default, you cannot create an effect with both an increased duration level and an increased amplifier level, but you are able to change this in the config file for the electric brewing stand.
+        此药水效果允许的最大药水等级. 默认情况下, 你不能让时长等级和药水等级同时增长, 但是你可以通过修改电力酿造台的配置文件来实现这种设置.
 
-!!! info "Multiple Choices for Ingredients"
+!!! info "原料多样性"
 
-    In this recipe type, multiple item choices for one ingredient are **not** allowed.
+    在这种配方类型中, **不支持**原料的多样性.

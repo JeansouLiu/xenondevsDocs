@@ -106,8 +106,7 @@
 
 ## 升级值
 
-预设升级方式 `speed`, `efficiency`, `energy`, `fluid` 和 `range` 的升级值设置
-并不在 `plugins/Nova/configs/config.yml` 文件中，而是在 `plugins/Nova/configs/nova/upgrade_values.json` 文件中.
+预设升级方式 `speed`, `efficiency`, `energy`, `fluid` 和 `range` 的升级值设置并不在 `plugins/Nova/configs/config.yml` 文件中，而是在 `plugins/Nova/configs/nova/upgrade_values.json` 文件中.
 这样是为了确保每个扩展都有它自己的 `upgrade_values.json` 文件.
 
 预设升级配置如下:
