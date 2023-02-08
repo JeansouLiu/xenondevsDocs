@@ -28,7 +28,7 @@
     val material = materialRegistry.get("nova:wrench") // (1)!
     ```
 
-    1. 如果材料无法找到，将抛出一个异常. ~~上面的扳手一定是存在的啦.~~<br>如果你不确定或是在使用用户输入请使用 ``getOrNull``.
+    1. 如果材料无法找到，将抛出一个异常. <del>上面的扳手一定是存在的啦.</del><br>如果你不确定或是在使用用户输入请使用 ``getOrNull``.
 
 === "Java"
 
@@ -36,7 +36,7 @@
     NovaMaterial material = materialRegistry.get("nova:wrench"); // (1)!
     ```
 
-    1. 如果材料无法找到，将抛出一个异常. ~~上面的扳手一定是存在的啦.~~<br>如果你不确定或是在使用用户输入请使用 ``getOrNull``.
+    1. 如果材料无法找到，将抛出一个异常. <del>上面的扳手一定是存在的啦.</del><br>如果你不确定或是在使用用户输入请使用 ``getOrNull``.
 
 
 !!! info "提示"
