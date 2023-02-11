@@ -1,4 +1,4 @@
-# NovaMaterial
+# Nova 材料
 
 ``NovaMaterial`` 是 Nova 物品和方块的材料类 (material class).
 
@@ -41,7 +41,7 @@
 
 !!! info "提示"
 
-    该方法同样适用于从一组 ``ItemStack`` 中获取``NovaMaterial``.
+    该方法同样适用于从一组 ``ItemStack`` 中获取 ``NovaMaterial``.
 
 如果你想要用某个名称来获取所有的材料而忽略材料的命名空间, 可以这样做:
 
