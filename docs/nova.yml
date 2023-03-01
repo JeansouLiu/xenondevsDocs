@@ -126,6 +126,7 @@ plugins:
           "BlockManager": 方块管理器
           "BlockState": 方块状态
           "TileEntity": 方块实体
+          "TileEntityManager": 方块实体管理器
           "Events": 事件
           "NovaLoadDataEvent": NovaLoadDataEvent
           "TileEntityBreakBlockEvent": TileEntityBreakBlockEvent
