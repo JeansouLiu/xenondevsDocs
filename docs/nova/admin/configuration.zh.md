@@ -35,7 +35,7 @@
 === "type"
 
     ```yaml
-    # 此示例配置阻止玩家放置 quarry.
+    # 此示例配置阻止玩家放置矿机.
     performance:
       tile_entity_limits:
         type:
@@ -57,7 +57,7 @@
 === "type_world"
 
     ```yaml
-    # 此实例配置阻止玩家在主世界放置 quarries 和在下界放置 pulverizers.
+    # 此实例配置阻止玩家在主世界放置矿机和在下界放置粉碎机.
     performance:
       tile_entity_limits:
         type_world:
@@ -70,7 +70,7 @@
 === "amount"
 
     ```yaml
-    # 此实例配置设置单个玩家最多可以放置 1 个 quarry, 每种类型的 cables 各 50 个.
+    # 此实例配置设置单个玩家最多可以放置 1 个矿机, 每种类型的缆线各 50 个.
     performance:
       tile_entity_limits:
         amount:
@@ -85,7 +85,7 @@
 === "amount_per_world"
 
     ```yaml
-    # 此实例配置设置单个玩家最多可以在单个世界放置 1 个 quarry.
+    # 此实例配置设置单个玩家最多可以在单个世界放置 1 个矿机.
     performance:
       tile_entity_limits:
         amount_per_world:
