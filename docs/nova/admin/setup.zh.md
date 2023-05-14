@@ -92,7 +92,7 @@ resource_pack:
             urlRegex: ="(http:\/\/resourcepack\.host\/dl\/[^"]+)"
         ```
 
-        ### 简易[php 上传脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455)
+        ### [php 上传脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455)
 
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
@@ -123,7 +123,7 @@ resource_pack:
             key_id: "" # 你的 S3 key id
             key_secret: "" # 你的 S3 key secret
         ```
-
+    
   === "Oraxen"
 
         如果你的服务器安装了 Oraxen 插件, 你也可以使用 [Oraxen 插件配置文件中配置的] PolyMath 服务 (https://docs.oraxen.com/configuration/plugin-settings#upload).
@@ -137,7 +137,7 @@ resource_pack:
             service: Oraxen
         ```
 
-## Step 3: 安装扩展
+## 步骤 3: 安装扩展
 
 如何安装一个扩展:
 
