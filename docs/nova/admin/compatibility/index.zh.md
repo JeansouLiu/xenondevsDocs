@@ -5,12 +5,12 @@
 打勾的插件为完全兼容的插件 (它们的物品可以被用在配方中, 它们的方块可被机器破坏等)  
 未打勾的插件为部分兼容, 某些功能可能不会正常工作.
 
-- [x] [ItemsAdder](itemsadder.md)
+- [x] [ItemsAdder](itemsadder.md) | [已知问题](itemsadder.md#known-issues)
+- [x] [Oraxen](oraxen.md)         | [已知问题](oraxen.md#known-issues)
 - [ ] MMOItems
 
 即将兼容:
 
-* [Oraxen](oraxen.md)
 * [粘液科技](utp.md)
 * [Space](utp.md)
 

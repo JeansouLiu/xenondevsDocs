@@ -3,7 +3,6 @@ site_url: https://xenondevs.tree.pink/cbf/
 docs_dir: cbf
 site_dir: sites/cbf
 site_name: CBF Documentation
-site_url: https://xenondevs.xyz/docs/cbf/
 edit_uri: edit/main/docs/cbf/
 
 extra:

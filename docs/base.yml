@@ -23,8 +23,6 @@ theme:
   logo: assets/logo.png
   palette:
     scheme: slate
-    primary: deep purple
-    accent: green
   icon:
     repo: fontawesome/brands/github
 

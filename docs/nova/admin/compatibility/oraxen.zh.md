@@ -1,4 +1,8 @@
-# Oraxen (即将兼容)
+# 使用 Oraxen 的上传服务
 
-Oraxen 之前是被标记为“兼容的”插件. 然而, 由于 Nova 和 Oraxen 插件机制的变更,
-目前两者并不能很好的兼容. [我们已经开始着手修复这个问题了](https://github.com/xenondevs/Nova/tree/oraxen-integration).
+你可以使用 Oraxen 的上传服务来自动上传资源包.  
+[资源包托管 - 可用的上传服务](../setup.md#__tabbed_1_5)
+
+## 已知问题
+
+* 重复且错误的方块音效

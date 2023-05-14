@@ -22,7 +22,7 @@
 
 ##  获取一个方块实体的本地化名称
 
-通过使用一个方块实体的 [``Nova 材料``](../material/index.md)来获取一个方块实体的名称.
+通过使用一个方块实体的 [``Nova 方块``](../blocks/blockregistry.md)来获取一个方块实体的名称.
 
 在下方的示例中, 将演示如何获取一个粉碎机的英文名.
 
@@ -30,7 +30,7 @@
 
     ```kotlin
     val tileEntity = tileEntityManager.getTileEntityAt(location) ?: return
-    val name = tileEntity.material.getLocalizedName("en_us")
+    val name = tileEntity.block.getLocalizedName("en_us")
     println(name) // 输出 "Pulverizer"
     ```
 

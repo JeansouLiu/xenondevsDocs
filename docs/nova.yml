@@ -3,7 +3,6 @@ site_url: https://xenondevs.tree.pink/nova/
 docs_dir: nova
 site_dir: sites/nova
 site_name: Nova Documentation
-site_url: https://xenondevs.xyz/docs/nova/
 edit_uri: edit/main/docs/nova/
 
 extra:
@@ -187,9 +186,9 @@ plugins:
           "Plugin API": "插件 API"
           "Getting Started": 入门
           "Protection": 保护
-          "NovaMaterial": "Nova 材料"
+          "Items": "物品"
           "BlockManager": 方块管理器
-          "BlockState": 方块状态
+          "BlockRegistry": 方块注册表
           "TileEntity": 方块实体
           "TileEntityManager": 方块实体管理器
           "Events": 事件
@@ -203,11 +202,12 @@ plugins:
           "Creating Items": 创建物品
           "Creating Blocks": 创建方块
           "Creating GUIs": "创建 GUI"
+          "Creating Armor": "创建新盔甲"
           "Language Files": 语言文件
           "Items": 物品相关
-          "Registering Materials": 物品材料
+          "Registering Items": 注册物品
           "Item Behaviors": 物品行为
-          "Using ItemNovaMaterial": "使用 ItemNovaMaterial"
+          "Using NovaItem": "使用 NovaItem"
           "Item Categories": 物品分类
           "Tools": 工具
           "Configs": 配置文件

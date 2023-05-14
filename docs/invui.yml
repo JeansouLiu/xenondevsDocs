@@ -3,7 +3,6 @@ site_url: https://xenondevs.tree.pink/invui/
 docs_dir: invui
 site_dir: sites/invui
 site_name: InvUI Documentation
-site_url: https://xenondevs.xyz/docs/invui/
 edit_uri: edit/main/docs/invui/
 
 extra:

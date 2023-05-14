@@ -20,9 +20,7 @@
 === "Gradle Kotlin"
 
     ```kotlin
-    maven {
-        url = uri("https://repo.xenondevs.xyz/releases")
-    }
+    maven("https://repo.xenondevs.xyz/releases")
     ```
 
 然后你可以添加 API 依赖到你的构建配置中:
@@ -33,7 +31,7 @@
     <dependency>
         <groupId>xyz.xenondevs.nova</groupId>
         <artifactId>nova-api</artifactId>
-        <version>0.11</version>
+        <version>VERSION</version>
         <scope>provided</scope>
     </dependency>
     ```
@@ -41,13 +39,13 @@
 === "Gradle Groovy"
 
     ```groovy
-    implementation "xyz.xenondevs.nova:nova-api:0.11"
+    implementation "xyz.xenondevs.nova:nova-api:VERSION"
     ```
 
 === "Gradle Kotlin"
 
     ```kotlin
-    implementation("xyz.xenondevs.nova:nova-api:0.11")
+    implementation("xyz.xenondevs.nova:nova-api:VERSION")
     ```
 
 要获取 Nova 实例你可以使用 `Nova` 类:
@@ -69,7 +67,8 @@
 你可以通过此实例来使用其它功能:
 
 - [添加自定义保护检测](./protection/protectionintegration.md)
-- [获取 ``NovaMaterials``](./material/index.md)
-- [管理方块实体](./tileentity/tileentitymanager.md)
-- [管理 Nova 方块](./blocks/blockmanager.md)
+- [获取 `NovaItems`](./items/index.md)
+- [获取 `NovaBlocks`](./blocks/blockregistry.md)
+- [管理 `NovaBlocks` 和 `NovaBlockStates`](./blocks/blockmanager.md)
+- [管理 `TileEntities`](./tileentity/tileentitymanager.md)
 - [管理 WAILA overlay](./player/wailamanager.md)

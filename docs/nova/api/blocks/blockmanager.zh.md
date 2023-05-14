@@ -38,47 +38,86 @@
 
 你还可以通过 ``BlockManager.hasBlock(Location)`` 来检测某一位置的方块是否是 Nova 的方块。
 
-详见[方块状态](blockstate.md).
+### Block Type
 
-## 放置一个方块
-
-你也可以使用一个 [``NovaMaterial``](../material/index.md) 来在某一位置放置一个 Nova 方块.
-
-!!! warning "注意"
-
-    如果所给的 ``NovaMaterial`` 不是一个方块的话，这个函数将会抛出 ``IllegalArgumentException`` 错误.
+`NovaBlock` 是一种方块类型, 类似 Bukkit 中的 `Material`, 但是只能用于方块.  
+要检索特定位置的方块类型，可以执行以下操作：
 
 === "Kotlin"
 
     ```kotlin
-    val material = materialRegistry.get("machines:pulverizer")
+    val blockState = blockManager.getBlock(location) ?: return
+    val block = blockState.block
+    ```
+
+=== "Java"
+
+    ```java
+    NovaBlockState blockState = blockManager.getBlock(location);
+    if (blockState == null)
+        return;
+    NovaBlock block = blockState.getBlock();
+    ```
+
+### Tile Entity
+
+[方块实体](../tileentity/tileentity.md) 使用 ``NovaTileEntityState`` 类，通过使用该类来获取方块的方块实体实例.
+
+=== "Kotlin"
+
+    ```kotlin
+    val blockState = blockManager.getBlock(location) ?: return
+    if (blockState is NovaTileEntityState) {
+        val tileEntity = blockState.tileEntity
+    }
+    ```
+
+=== "Java"
+
+    ```java
+    NovaBlockState blockState = blockManager.getBlock(location);
+    if (blockState == null)
+        return;
+    if (blockState instanceof NovaTileEntityState tileEntityState) {
+        TileEntity tileEntity = tileEntityState.getTileEntity();
+    }
+    ```
+
+## 放置方块
+
+通过使用 [`NovaBlock`](blockregistry.md) 来在指定位置放置 nova 方块.
+
+=== "Kotlin"
+
+    ```kotlin
+    val block = blockRegistry.get("machines:pulverizer")
     blockManager.placeBlock(
         location, // (1)!
-        material, // (2)!
+        block, // (2)!
         player, // (3)!
         true // (4)!
     )
     ```
 
     1. 放置方块的位置.
-    2. 放置的方块材料.
+    2. 放置的方块类型.
     3. 放置方块的目标. 目标不一定是玩家, 也可以是方块实体或其它类似实体.
     4. 是否播放方块放置音效.
 
 === "Java"
 
     ```java
-    NovaMaterial material = materialRegistry.get("machines:pulverizer");
+    NovaBlock block = blockRegistry.get("machines:pulverizer");
     blockManager.placeBlock(
         location, // (1)!
-        material, // (2)!
+        block, // (2)!
         player, // (3)!
         true // (4)!
     );
     ```
 
     1. 放置方块的位置.
-    2. 放置的方块材料.
+    2. 放置的方块类型.
     3. 放置方块的目标. 目标不一定是玩家, 也可以是方块实体或其它类似实体.
     4. 是否播放方块放置音效.
 

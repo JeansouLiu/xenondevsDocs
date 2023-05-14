@@ -40,6 +40,7 @@ resource_pack:
         由于服务器费用以及防止滥用, 此服务仅对 Patrons 开放.
     
         示例配置:
+
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
@@ -54,6 +55,7 @@ resource_pack:
         Nova 将启动一个 Web 服务器来提供资源包的下载.
     
         示例配置:
+
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
@@ -76,7 +78,22 @@ resource_pack:
     
         对于高级用户, Nova 可以发送请求至你的服务器并解析服务器回应.
     
-        对于 [这个 php 脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455), 在 Nova 的配置文件中应这样配置:
+        一些示例:
+
+        ### [PloudOS' resource pack CDN](https://resourcepack.host/)
+
+        ```yaml title="plugins/Nova/configs/config.yml"
+        resource_pack:
+          auto_upload:
+            enabled: true
+            service: CustomMultiPart
+            url: https://resourcepack.host/index.php
+            filePartName: pack
+            urlRegex: ="(http:\/\/resourcepack\.host\/dl\/[^"]+)"
+        ```
+
+        ### 简易[php 上传脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455)
+
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
@@ -88,21 +105,13 @@ resource_pack:
               key: "" # 此密钥需要与上方提及的 php 脚本中的密钥一致
         ```
     
-        如果你的上传服务返回的数据是另一种格式如 JSON, 你将需要设置 ``urlRegex`` 参数来匹配数据中的 url.
-        例如, 如果服务器返回数据如下:
-        ```json
-        {
-          "state": "success",
-          "url": "https://example.com/ResourcePack.zip"
-        }
-        ```
-        那么正则表达式可以为 ``"url": "([\w:/\.]*)``.
 	=== "Amazon S3"
 
         如果你使用的是 Amazon S3, 你可以使用 S3 服务来上传资源包. **你需要开放 S3 
         容器的公开网络访问权限.**
 
         示例配置:
+
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
@@ -113,6 +122,19 @@ resource_pack:
             bucket: examplebucket # 你的 S3 容器的名称
             key_id: "" # 你的 S3 key id
             key_secret: "" # 你的 S3 key secret
+        ```
+
+  === "Oraxen"
+
+        如果你的服务器安装了 Oraxen 插件, 你也可以使用 [Oraxen 插件配置文件中配置的] PolyMath 服务 (https://docs.oraxen.com/configuration/plugin-settings#upload).
+
+        示例配置:
+        
+        ```yaml title="plugins/Nova/configs/config.yml"
+        resource_pack:
+          auto_upload:
+            enabled: true
+            service: Oraxen
         ```
 
 ## Step 3: 安装扩展
@@ -145,8 +167,9 @@ resource_pack:
     示例:
     ```yaml title="plugins/Nova/configs/config.yml"
     resource_pack:
-      base_packs:
-        - plugins/ItemsAdder/data/resource_pack/pack.zip
+      generation:
+        base_packs:
+          - plugins/ItemsAdder/output/generated.zip
     ```
 
     !!! info "提示"
