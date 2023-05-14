@@ -106,8 +106,7 @@
 
 ## 升级值
 
-每个扩展都可以声明其带有的升级模式. As a server administrator, you can configure these values in the
-`plugin/Nova/configs/<addon name>/upgrade_values.yml` file.
+每个扩展都可以声明其带有的升级模式. 服务器管理员可以在 `plugin/Nova/configs/<addon name>/upgrade_values.yml` 中设置这些值.
 
 `simple_upgrades` 扩展的预设升级配置如下:
 ```yaml
@@ -141,23 +140,22 @@ attribute_modifiers:
     hidden: <hidden> # (5)!
 ```
 
-1. The equipment slot that this item needs to be in for the attribute modifier to apply.  
-    Possible values: `mainhand`, `offhand`, `feet`, `legs`, `chest`, `head`
-2. The attribute to modify.  
-    Available attributes: `generic.maxHealth`, `generic.followRange`, `generic.knockbackResistance`, `generic.movementSpeed`,
-    `generic.flying_speed`, `generic.attackDamage`, `generic.attack_knockback`, `generic.attackSpeed`, `generic.armor`,
-    `generic.armorToughness`, `generic.luck`
-3. The operation to perform.  
-    Possible operations: `addition`, `multiply_base`, `multiply_total`
-4. The value to modify the attribute with.
-5. Whether the attribute should be hidden from the item's lore.  
-    Default: `false`
+1. 物品需要在背包的哪个位置才能使这些属性生效.  
+    可用值: `mainhand`(主手), `offhand`(副手), `feet`(脚), `legs`(腿), `chest`(上身), `head`(头)
+2. 要修改的属性.  
+    可用属性: `generic.maxHealth`(最大生命值), `generic.followRange`(跟随距离), `generic.knockbackResistance`(击退抗性), `generic.movementSpeed`(基础移动加速度), `generic.flying_speed`(飞行时的移动加速度), `generic.attackDamage`(近战攻击伤害), `generic.attack_knockback`(击退效果), `generic.attackSpeed`(每秒可以进行全力攻击的次数), `generic.armor`(盔甲值), `generic.armorToughness`(盔甲韧性), `generic.luck`(幸运值)
+    各属性的作用见[属性 - Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/%E5%B1%9E%E6%80%A7)
+3. 修改模式.  
+    可用值: `addition`(加法), `multiply_base`(比例增加), `multiply_total`(乘法)
+4. 修改值.
+5. 是否在物品 lore 中隐藏属性.
+    默认值: `false`
 
-??? example "Example configuration"
+??? example "示例配置"
 
     ```yaml
-    # The following configuration increases the player's attack damage by 5 if the item is held in the main hand
-    # and increases the movement speed by 10% for both the main hand and off hand.
+    # 如果物品被拿在主手，玩家的近战攻击伤害增加 5
+    # 如果物品被拿在主手或者副手，增加 10% 的速度.
     
     attribute_modifiers:
       mainhand:
@@ -173,12 +171,11 @@ attribute_modifiers:
         value: 0.1
     ```
     
-    ![](https://i.imgur.com/TIjCNto.png)
+    ![](https://i.imgtg.com/2023/05/14/OMkl6x.png)
 
-## Resource Filters
+## 资源包筛选器
 
-Resource filters allow you to exclude certain files from the resource pack. They are configured in the main config
-under `resource_pack.generation.resource_filters`.
+通过使用资源包筛选，将可以在生成资源包时排除某些文件. 该设置位于主配置文件中的 `resource_pack.generation.resource_filters` 部分.
 
 ```yaml
 resource_pack:
@@ -191,7 +188,7 @@ resource_pack:
       directory: "" # (5)!
 ```
 
-1. The stage at which the filter should be applied. Can be `asset_pack` or `resource_pack`.
+1. 筛选器启用的阶段. 可为 `asset_pack` 或 `resource_pack`.
 2. The type of the filter. Can be `whitelist` or `blacklist`.
 3. The pattern type of the `filter` field. Can be `regex` or `wildcard`.
 4. The filter pattern to match against. The `pattern_type` field determines how the pattern is interpreted.

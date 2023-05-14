@@ -126,7 +126,7 @@ resource_pack:
     
     === "Oraxen"
     
-        如果你的服务器安装了 Oraxen 插件, 你也可以使用 [Oraxen 插件配置文件中配置的] PolyMath 服务 (https://docs.oraxen.com/configuration/plugin-settings#upload).
+        如果你的服务器安装了 Oraxen 插件, 你也可以使用 [Oraxen 插件配置文件中配置的](https://docs.oraxen.com/configuration/plugin-settings#upload) PolyMath 服务.
 		
         示例配置:
         
