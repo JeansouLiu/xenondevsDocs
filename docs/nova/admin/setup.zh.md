@@ -40,7 +40,7 @@ resource_pack:
         由于服务器费用以及防止滥用, 此服务仅对 Patrons 开放.
     
         示例配置:
-
+		
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
@@ -79,9 +79,9 @@ resource_pack:
         对于高级用户, Nova 可以发送请求至你的服务器并解析服务器回应.
     
         一些示例:
-
+		
         [PloudOS' resource pack CDN](https://resourcepack.host/)
-
+		
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
@@ -93,7 +93,7 @@ resource_pack:
         ```
         
         [php 上传脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455)
-
+		
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
@@ -105,13 +105,13 @@ resource_pack:
               key: "" # 此密钥需要与上方提及的 php 脚本中的密钥一致
         ```
     
-	  === "Amazon S3"
-
+	=== "Amazon S3"
+	
         如果你使用的是 Amazon S3, 你可以使用 S3 服务来上传资源包. **你需要开放 S3 
         容器的公开网络访问权限.**
-
+		
         示例配置:
-
+		
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
@@ -127,7 +127,7 @@ resource_pack:
     === "Oraxen"
     
         如果你的服务器安装了 Oraxen 插件, 你也可以使用 [Oraxen 插件配置文件中配置的] PolyMath 服务 (https://docs.oraxen.com/configuration/plugin-settings#upload).
-
+		
         示例配置:
         
         ```yaml title="plugins/Nova/configs/config.yml"
