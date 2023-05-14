@@ -105,7 +105,7 @@ resource_pack:
               key: "" # 此密钥需要与上方提及的 php 脚本中的密钥一致
         ```
     
-	=== "Amazon S3"
+	  === "Amazon S3"
 
         如果你使用的是 Amazon S3, 你可以使用 S3 服务来上传资源包. **你需要开放 S3 
         容器的公开网络访问权限.**
@@ -124,7 +124,7 @@ resource_pack:
             key_secret: "" # 你的 S3 key secret
         ```
     
-  === "Oraxen"
+    === "Oraxen"
 
         如果你的服务器安装了 Oraxen 插件, 你也可以使用 [Oraxen 插件配置文件中配置的] PolyMath 服务 (https://docs.oraxen.com/configuration/plugin-settings#upload).
 
