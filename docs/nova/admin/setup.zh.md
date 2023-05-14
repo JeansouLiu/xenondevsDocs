@@ -80,7 +80,7 @@ resource_pack:
     
         一些示例:
 
-        ### [PloudOS' resource pack CDN](https://resourcepack.host/)
+        [PloudOS' resource pack CDN](https://resourcepack.host/)
 
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
@@ -92,7 +92,7 @@ resource_pack:
             urlRegex: ="(http:\/\/resourcepack\.host\/dl\/[^"]+)"
         ```
 
-        ### [php 上传脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455)
+        [php 上传脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455)
 
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
