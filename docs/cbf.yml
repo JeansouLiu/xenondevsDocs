@@ -3,6 +3,7 @@ site_url: https://xenondevs.tree.pink/cbf/
 docs_dir: cbf
 site_dir: sites/cbf
 site_name: CBF Documentation
+site_url: https://xenondevs.xyz/docs/cbf/
 edit_uri: edit/main/docs/cbf/
 
 extra:
@@ -16,8 +17,11 @@ extra:
 
 theme:
   features:
+    - navigation.footer
     - content.tabs.link
     - content.code.annotate
+    - content.code.copy
+    - content.code.select
 
 nav:
   - "Getting Started": "index.md"

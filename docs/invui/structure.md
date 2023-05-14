@@ -16,13 +16,13 @@ This is an example I stole from the [Paged GUI](guis/paged.md) section:
         "# x x x x x x x #",
         "# x x x x x x x #",
         "# # # < # > # # #")
-        .addIngredient('x', Markers.ITEM_LIST_SLOT_HORIZONTAL) // where paged items should be put
+        .addIngredient('x', Markers.CONTENT_LIST_SLOT_HORIZONTAL) // where paged items should be put
         .addIngredient('#', ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setDisplayName("§r")) // this will just create a SimpleItem with the given ItemBuilder
         .addIngredient('<', BackItem())
         .addIngredient('>', ForwardItem())
 
     // use it in a GUI Builder
-    GUIBuilder(GUIType.PAGED_ITEMS).setStructure(structure)
+    PagedGui.items().setStructure(structure)
     
     // or use it on an existing GUI
     gui.applyStructure(structure)
@@ -37,13 +37,13 @@ This is an example I stole from the [Paged GUI](guis/paged.md) section:
         "# x x x x x x x #",
         "# x x x x x x x #",
         "# # # < # > # # #")
-        .addIngredient('x', Markers.ITEM_LIST_SLOT_HORIZONTAL) // where paged items should be put
+        .addIngredient('x', Markers.CONTENT_LIST_SLOT_HORIZONTAL) // where paged items should be put
         .addIngredient('#', new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setDisplayName("§r")) // this will just create a SimpleItem with the given ItemBuilder
         .addIngredient('<', new BackItem())
         .addIngredient('>', new ForwardItem());
 
     // use it in a GUI Builder
-    new GUIBuilder<>(GUIType.PAGED_ITEMS).setStructure(structure);
+    PagedGui.items().setStructure(structure);
 
     // or use it on an existing GUI
     gui.applyStructure(structure);
@@ -70,8 +70,8 @@ Make sure to use suppliers for every item where you want a new instance per slot
     Structure.addGlobalIngredient('<', ::BackItem)
     Structure.addGlobalIngredient('>', ::ForwardItem)
     
-    // Adding the Markers.ITEM_LIST_SLOT_HORIZONTAL as a global ingredient is also a good idea
-    Structure.addGlobalIngredient('x', Markers.ITEM_LIST_SLOT_HORIZONTAL)
+    // Adding the Markers.CONTENT_LIST_SLOT_HORIZONTAL as a global ingredient is also a good idea
+    Structure.addGlobalIngredient('x', Markers.CONTENT_LIST_SLOT_HORIZONTAL)
     ```
 
 === "Java"
@@ -84,6 +84,6 @@ Make sure to use suppliers for every item where you want a new instance per slot
     Structure.addGlobalIngredient('<', BackItem::new);
     Structure.addGlobalIngredient('>', ForwardItem::new);
 
-    // Adding the Markers.ITEM_LIST_SLOT_HORIZONTAL as a global ingredient is also a good idea
-    Structure.addGlobalIngredient('x', Markers.ITEM_LIST_SLOT_HORIZONTAL);
+    // Adding the Markers.CONTENT_LIST_SLOT_HORIZONTAL as a global ingredient is also a good idea
+    Structure.addGlobalIngredient('x', Markers.CONTENT_LIST_SLOT_HORIZONTAL);
     ```

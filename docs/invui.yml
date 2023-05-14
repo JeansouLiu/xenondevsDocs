@@ -3,6 +3,7 @@ site_url: https://xenondevs.tree.pink/invui/
 docs_dir: invui
 site_dir: sites/invui
 site_name: InvUI Documentation
+site_url: https://xenondevs.xyz/docs/invui/
 edit_uri: edit/main/docs/invui/
 
 extra:
@@ -16,8 +17,11 @@ extra:
 
 theme:
   features:
+    - navigation.footer
     - content.tabs.link
     - content.code.annotate
+    - content.code.copy
+    - content.code.select
 
 nav:
   - "Getting Started": "index.md"
@@ -31,7 +35,8 @@ nav:
       - "Scroll GUI": "guis/scroll.md"
       - "Tab GUI": "guis/tab.md"
   - "Windows": "windows.md"
-  - "VirtualInventory": "virtualinventory.md"
+  - "Inventory": "inventory.md"
+  - "Localization": "localization.md"
 
 plugins:
   - search
@@ -66,4 +71,5 @@ plugins:
           "Scroll GUI": "可滚动 GUI"
           "Tab GUI": "Tab GUI"
           "Windows": "Windows"
-          "VirtualInventory": "虚拟背包"
+          "Inventory": "背包"
+          "Localization": "语言"
