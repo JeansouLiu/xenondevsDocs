@@ -144,7 +144,7 @@ attribute_modifiers:
     可用值: `mainhand`(主手), `offhand`(副手), `feet`(脚), `legs`(腿), `chest`(上身), `head`(头)
 2. 要修改的属性.  
     可用属性: `generic.maxHealth`(最大生命值), `generic.followRange`(跟随距离), `generic.knockbackResistance`(击退抗性), `generic.movementSpeed`(基础移动加速度), `generic.flying_speed`(飞行时的移动加速度), `generic.attackDamage`(近战攻击伤害), `generic.attack_knockback`(击退效果), `generic.attackSpeed`(每秒可以进行全力攻击的次数), `generic.armor`(盔甲值), `generic.armorToughness`(盔甲韧性), `generic.luck`(幸运值)
-    各属性的作用见[属性 - Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/%E5%B1%9E%E6%80%A7)
+    <br>各属性的作用见[属性 - Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/%E5%B1%9E%E6%80%A7)
 3. 修改模式.  
     可用值: `addition`(加法), `multiply_base`(比例增加), `multiply_total`(乘法)
 4. 修改值.
@@ -189,12 +189,12 @@ resource_pack:
 ```
 
 1. 筛选器启用的阶段. 可为 `asset_pack` 或 `resource_pack`.
-2. The type of the filter. Can be `whitelist` or `blacklist`.
-3. The pattern type of the `filter` field. Can be `regex` or `wildcard`.
-4. The filter pattern to match against. The `pattern_type` field determines how the pattern is interpreted.
-5. The directory to apply the filter to. This property is optional and defaults to the root directory.
+2. 筛选器类型. 可为 `whitelist`(白名单) 或 `blacklist`(黑名单).
+3. `filter` 字段的类型. 可为 `regex`(正则表达式) 或 `wildcard`(通配符).
+4. 筛选器匹配内容. `pattern_type` 字段配置了此字段如何处理.
+5. 筛选器应用的目录. 此属性可选，默认为根目录.
 
-??? example "Example: Excluding all language files except en_us.json and de_de.json"
+??? example "示例: 排除 en_us.json 和 de_de.json 以外的所有语言文件"
 
     ```yaml
     resource_pack:
@@ -207,7 +207,7 @@ resource_pack:
           directory: minecraft/lang/
     ```
 
-## WAILA Positioning
+## WAILA 位置
 
 If you want to change the vertical position of the WAILA overlay, you can do so by defining which boss bars should be
 above or below it. This is done by defining matchers in `waila.positioning.above` (defines the boss bars that should

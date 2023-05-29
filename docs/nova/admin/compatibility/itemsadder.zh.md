@@ -2,7 +2,7 @@
 
 要使 ItemsAdder 和 Nova 一起工作, 你需要这样做:
 
-1. 在 ItemsAdder `config.yml` 中修改这些值:
+1. 在 ItemsAdder 的 `config.yml` 中修改这些值:
     - 设置 `resource-pack` > `hosting` > `no-host` > `enabled` 为 `true` (其它有关 `hosting` 的选项也需要设为 `false`).
     - 在 `resource-pack` > `zip` > `protect-file-from-unzip` 中设置 `protection_1` 和 `protection_2` 为 `false`.
     - 设置 `resource-pack` > `zip` > `disable-overwrite-leather-armor-layers-textures` 为 `true`.

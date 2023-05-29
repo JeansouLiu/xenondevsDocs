@@ -157,12 +157,12 @@ resource_pack:
 
 由于 Minecraft 游戏机制的限制, 一个服务器只能提供一个资源包. 为了解决这个问题, Nova 可以自动合并已经存在的资源包.  
 
-目前, 有两种方法来指定要合并的资源包:  
+插件提供了两种方法来指定要合并的资源包:  
 
 === "使用配置文件"
 
     * 确保你关闭了另一个提供资源包的插件的资源包发送功能
-    * 在 Nova 配置文件中的 ``resource_pack.base_packs`` 设置原资源包路径
+    * 在 Nova 配置文件中的 `resource_pack` > `generation` > `base_packs` 设置待合并资源包路径
 
     示例:
     ```yaml title="plugins/Nova/configs/config.yml"
