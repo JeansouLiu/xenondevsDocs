@@ -207,21 +207,19 @@ resource_pack:
           directory: minecraft/lang/
     ```
 
-## WAILA 位置
+## WAILA(高亮信息拓展) 显示位置
 
-If you want to change the vertical position of the WAILA overlay, you can do so by defining which boss bars should be
-above or below it. This is done by defining matchers in `waila.positioning.above` (defines the boss bars that should
-be below WAILA) and `waila.positioning.below` (defines the boss bars that should be above WAILA).
+通过修改高亮信息上方或下方的 Boss 栏数量，你可以修改高亮信息所在的**垂直**位置, 具体可以通过在 `waila.positioning.above` (WAILA 上方的 Boss 栏数量)和 `waila.positioning.below` (WAILA下方的 Boss 栏数量)中定义匹配器来实现.
 
-There are five different types of matchers available:
+以下是五种可用的匹配器:
 
-| Type      | Description                                                                                                               |
+| 类型      | 简介                                                                                                               |
 |-----------|---------------------------------------------------------------------------------------------------------------------------|
-| `origin`  | Matches against the origin of the boss bar. (Either `minecraft` or a plugin name.)                                        |
-| `text`    | Matches against the text of the boss bar using either a regex or wildcard.                                                |
-| `overlay` | Matches against the overlay id of a boss bar overlay from a different Nova addon.                                         |
-| `uuid`    | Matches against the UUID of the boss bar.                                                                                 |
-| `index`   | Matches against the index of the boss bar (before Nova rearranges them), with the uppermost boss bar starting at index 0. |
+| `origin`  | 匹配 Boss 栏来源. (`minecraft` 或是其它插件名.)                                        |
+| `text`    | 使用正则表达式或者通配符匹配 Boss 栏显示的文字.                                                |
+| `overlay` | 匹配来自另一个 Nova 扩展的 Boss 栏 ID.                                         |
+| `uuid`    | 匹配 Boss 栏 UUID.                                                                                 |
+| `index`   | 匹配 Nova 重新排序前的 Boss 栏索引，索引从 0 开始. |
 
 === "Origin"
 
@@ -233,7 +231,7 @@ There are five different types of matchers available:
           origin: <origin> # (1)!
     ```
 
-    1. The origin to match against. Can be `minecraft` or a plugin name.
+    1. 匹配的来源. 可为 `minecraft` 或一个插件名.
 
 === "Text"
 
@@ -248,8 +246,8 @@ There are five different types of matchers available:
               wildcard: <pattern> # (1)!
         ```
 
-        1. The wildcard pattern to match against.  
-           Use `*` to match any number of characters and `?` to match a single character.
+        1. 要匹配的通配符模式.  
+           使用 `*` 来匹配任意数量的字符，使用 `?` 来匹配单个字符。
 
     === "Regex"
 
@@ -261,8 +259,8 @@ There are five different types of matchers available:
               regex: <pattern> # (1)!
         ```
 
-        1. The regex pattern to match against.  
-           You can try out your regex pattern on [RegExr](https://regexr.com/).
+        1. 要匹配的正则表达式模式.  
+           你可以在 [RegExr](https://regexr.com/) 上检查你的正则表达式模式.
 
 === "Overlay"
 
@@ -274,8 +272,8 @@ There are five different types of matchers available:
           overlay: <overlay id> # (1)!
     ```
 
-    1. The overlay id of a boss bar overlay from a different Nova addon.  
-       For example, WAILA's overlay id is `nova:waila`.
+    1. 来自另一个 Nova 扩展的 Boss 栏 ID.  
+       例如, WAILA 的 Boss 栏 ID 是 `nova:waila`.
 
 === "UUID"
 
@@ -287,7 +285,7 @@ There are five different types of matchers available:
           uuid: <uuid> # (1)!
     ```
 
-    1. The UUID to match against.
+    1. 要匹配的 UUID.
 
 === "Index"
 
@@ -299,11 +297,11 @@ There are five different types of matchers available:
           index: <index> # (1)!
     ```
 
-    1. The index of the boss bar. Starts at 0, from the top down.
+    1. Boss 栏的索引，索引从上至下从 0 开始.
 
-??? example "Example configuration"
+??? example "示例配置"
 
-    This example configuration places WAILA above all vanilla boss bars, but below all boss bars registered by `PluginA` and `PluginB`.
+    此示例将使所有原版 Boss 栏都显示在 WAILA 下方, 且使 `插件A` 和 `插件B` 的 Boss 栏显示在 WAILA 上方.
 
     ```yaml
     waila:
@@ -313,7 +311,7 @@ There are five different types of matchers available:
           origin: minecraft
         below:
         - type: origin
-          origin: PluginA
+          origin: '插件A'
         - type: origin
-          origin: PluginB
+          origin: '插件B'
     ```
