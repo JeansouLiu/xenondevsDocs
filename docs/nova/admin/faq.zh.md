@@ -16,7 +16,7 @@
 
 ??? faq "Nova 与 Geyser 兼容吗?"
 
-    不，Nova 不与 Geyser 兼容.
+    不，Nova 与 Geyser 不兼容.
 
 ??? faq "我该在哪提交 bug?"
 
@@ -35,7 +35,7 @@
     
     所有兼容的插件以及安装要求请见[兼容性页面](compatibility/index.md).
 
-## Official Addons
+## 官方扩展
 
 ### Logistics
 
