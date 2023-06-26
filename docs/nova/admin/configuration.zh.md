@@ -209,7 +209,7 @@ resource_pack:
 
 ## WAILA(高亮信息拓展) 显示位置
 
-通过修改高亮信息上方或下方的 Boss 栏数量，你可以修改高亮信息所在的**垂直**位置, 具体可以通过在 `waila.positioning.above` (WAILA 上方的 Boss 栏数量)和 `waila.positioning.below` (WAILA下方的 Boss 栏数量)中定义匹配器来实现.
+通过修改高亮信息上方或下方的 Boss 栏，你可以修改高亮信息所在的**垂直**位置, 具体可以通过在 `waila.positioning.above` (WAILA 上方的 Boss 栏)和 `waila.positioning.below` (WAILA下方的 Boss 栏)中定义匹配器来实现.
 
 以下是五种可用的匹配器:
 
