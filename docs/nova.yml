@@ -195,7 +195,7 @@ plugins:
           "Events": 事件
           "NovaLoadDataEvent": NovaLoadDataEvent
           "TileEntityBreakBlockEvent": TileEntityBreakBlockEvent
-          "WailaManager": WailaManager
+          "WailaManager": "Waila 管理器"
           "Addon API": "扩展 API"
           "Configure Addon": 配置扩展
           "AssetPacks": 资源包
