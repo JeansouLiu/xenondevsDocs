@@ -175,12 +175,12 @@ plugins:
         - locale: en
           name: English
           build: true
-          default: false
+          default: true
           site_name: "Nova Documentation"
         - locale: zh
           name: 简体中文
           build: true
-          default: true
+          default: false
           site_name: "Nova 帮助文档"
           nav_translations:
               "Setup & Configuration": "安装 & 配置"
