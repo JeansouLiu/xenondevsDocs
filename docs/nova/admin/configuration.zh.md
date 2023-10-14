@@ -16,7 +16,7 @@
 ## 方块实体限制
 
 使用方块实体限制选项, 你可以限制玩家放置的方块实体种类.  
-方块实体限制选项位于配置文件中的 `performance.tile_entity_limits`.  
+方块实体限制选项位于配置文件中的 `performance` > `tile_entity_limits`.  
 拥有 `nova.misc.bypassTileEntityLimits` 权限的玩家将会无视这些限制.
 
 插件提供了 5 种不同的限制条件. 你可以选择一个或多个:
@@ -175,12 +175,13 @@ attribute_modifiers:
 
 ## 资源包筛选器
 
-通过使用资源包筛选，将可以在生成资源包时排除某些文件. 该设置位于主配置文件中的 `resource_pack.generation.resource_filters` 部分.
+通过使用资源包筛选，将可以在生成资源包时排除某些文件.
+该设置位于主配置文件中的 `resource_pack` > `generation` > `resource_filters` 部分.
 
 ```yaml
 resource_pack:
   generation:
-    content_filters:
+    resource_filters:
     - stage: "" # (1)!
       type: "" # (2)!
       pattern_type: "" # (3)!
@@ -192,24 +193,42 @@ resource_pack:
 2. 筛选器类型. 可为 `whitelist`(白名单) 或 `blacklist`(黑名单).
 3. `filter` 字段的类型. 可为 `regex`(正则表达式) 或 `wildcard`(通配符).
 4. 筛选器匹配内容. `pattern_type` 字段配置了此字段如何处理.
-5. 筛选器应用的目录. 此属性可选，默认为根目录.
+   你可以在 [RegExr](https://regexr.com/) 或类似网站上测试你的正则表达式.
+5. （可选）筛选器应用的目录. 请填写相对于 `assets` 目录的相对路径。
 
-??? example "示例: 排除 en_us.json 和 de_de.json 以外的所有语言文件"
+??? example "一些示例"
 
-    ```yaml
-    resource_pack:
-      generation:
-        resource_filters:
-        - stage: resource_pack
-          type: whitelist
-          pattern_type: regex
-          filter: minecraft\/lang\/(en_us|de_de).json
-          directory: minecraft/lang/
+    排除除了 `en_us.json` 和 `de_de.json` 之外的所有语言文件:
+
+    ```yaml title="config.yml: resource_pack > generation > resource_filters"
+    - stage: resource_pack
+      type: whitelist
+      pattern_type: regex
+      filter: minecraft\/lang\/(en_us|de_de).json
+      directory: minecraft/lang/
     ```
+
+    排除一整个目录:
+
+    ```yaml title="config.yml: resource_pack > generation > resource_filters"
+    - stage: resource_pack
+      type: blacklist
+      pattern_type: regex
+      filter: .*
+      directory: path/to/directory/
+    ```
+
+    排除所有 png 文件:
+
+    ```yaml title="config.yml: resource_pack > generation > resource_filters"
+    - stage: resource_pack
+      type: blacklist
+      pattern_type: regex
+      filter: *.png
 
 ## WAILA(高亮信息拓展) 显示位置
 
-通过修改高亮信息上方或下方的 Boss 栏，你可以修改高亮信息所在的**垂直**位置, 具体可以通过在 `waila.positioning.above` (WAILA 上方的 Boss 栏)和 `waila.positioning.below` (WAILA下方的 Boss 栏)中定义匹配器来实现.
+通过修改高亮信息上方或下方的 Boss 栏，你可以修改高亮信息所在的**垂直**位置, 具体可以通过在 `waila` > `positioning` > `above` (WAILA 上方的 Boss 栏)和 `waila` > `positioning` > `below` (WAILA下方的 Boss 栏)中定义匹配器来实现.
 
 以下是五种可用的匹配器:
 

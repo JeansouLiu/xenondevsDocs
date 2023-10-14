@@ -170,66 +170,79 @@ plugins:
       css_files:
         - assets/stylesheets/extra.css
   - i18n:
-      default_language: zh
+      docs_structure: suffix
       languages:
-        en:
+        - locale: en
           name: English
-          site_name: Nova Documentation
-        zh:
+          build: true
+          default: false
+          site_name: "Nova Documentation"
+        - locale: zh
           name: 简体中文
-          site_name: Nova 帮助文档
-      nav_translations:
-        zh:
-          "Setup & Configuration": "安装 & 配置"
-          "Setup": 插件安装
-          "Configuration": 插件配置
-          "Compatibility": 兼容性
-          "List of compatible Plugins": 兼容的插件
-          "Troubleshooting": 疑难解答
-          "Recipes": 合成配方
-          "Custom Recipes": 自定义配方
-          "Vanilla Recipe Types": 原版类型配方
-          "Machines Recipe Types": 机械扩展配方
-          "FAQ": 常见问题
-          "Plugin API": "插件 API"
-          "Getting Started": 入门
-          "Protection": 保护
-          "Items": "物品"
-          "BlockManager": 方块管理器
-          "BlockRegistry": 方块注册表
-          "TileEntity": 方块实体
-          "TileEntityManager": 方块实体管理器
-          "Events": 事件
-          "NovaLoadDataEvent": NovaLoadDataEvent
-          "TileEntityBreakBlockEvent": TileEntityBreakBlockEvent
-          "WailaManager": "Waila 管理器"
-          "Addon API": "扩展 API"
-          "Configure Addon": 配置扩展
-          "AssetPacks": 资源包
-          "Basics": 基础
-          "Creating Items": 创建物品
-          "Creating Blocks": 创建方块
-          "Creating GUIs": "创建 GUI"
-          "Creating Armor": "创建新盔甲"
-          "Language Files": 语言文件
-          "Items": 物品相关
-          "Registering Items": 注册物品
-          "Item Behaviors": 物品行为
-          "Using NovaItem": "使用 NovaItem"
-          "Item Categories": 物品分类
-          "Tools": 工具
-          "Configs": 配置文件
-          "Blocks": 方块相关
-          "TileEntities": 方块实体
-          "Config": 配置文件
-          "TileEntity Data": 方块实体数据
-          "Holders": Holders
-          "Upgrades": 升级
-          "Regions": 区域
-          "Particles": 粒子效果
-          "GUI Textures": "GUI 纹理"
-          "Overlays": Overlays
-          "Advancements": 进度
-          "Attachments": Attachments
-          "Abilities": 技能
-          "Migration Guide": 版本更新
+          build: true
+          default: true
+          site_name: "Nova 帮助文档"
+          nav_translations:
+              "Setup & Configuration": "安装 & 配置"
+              "Setup": 插件安装
+              "Configuration": 插件配置
+              "Compatibility": 兼容性
+              "List of compatible Plugins": 兼容的插件
+              "Troubleshooting": 疑难解答
+              "Recipes": 合成配方
+              "Custom Recipes": 自定义配方
+              "Vanilla Recipe Types": 原版类型配方
+              "Machines Recipe Types": 机械扩展配方
+              "FAQ": 常见问题
+              "Plugin API": "插件 API"
+              "Getting Started": 入门
+              "Protection": 保护
+              "Items": "物品"
+              "BlockManager": 方块管理器
+              "BlockRegistry": 方块注册表
+              "TileEntity": 方块实体
+              "TileEntityManager": 方块实体管理器
+              "Events": 事件
+              "NovaLoadDataEvent": NovaLoadDataEvent
+              "TileEntityBreakBlockEvent": TileEntityBreakBlockEvent
+              "WailaManager": "Waila 管理器"
+              "Addon API": "扩展 API"
+              "Configure Addon": 配置扩展
+              "AssetPacks": 资源包
+              "Basics": 基础
+              "Creating Items": 创建物品
+              "Creating Blocks": 创建方块
+              "Creating GUIs": "创建 GUI"
+              "Creating Armor": "创建新盔甲"
+              "Language Files": 语言文件
+              "Configs": 配置文件
+              "Items": 物品相关
+              "Registering Items": 注册物品
+              "Using NovaItem": "使用 NovaItem"
+              "Item Behaviors": 物品行为
+              "Tools": 工具
+              "Enchantments": 附魔
+              "Recipes": 配方
+              "Blocks": 方块相关
+              "TileEntities": 方块实体
+              "Config": 配置文件
+              "TileEntity Data": 方块实体数据
+              "Holders": Holders
+              "Upgrades": 升级
+              "Regions": 区域
+              "Particles": 粒子效果
+              "GUI Textures": "GUI 贴图"
+              "Fonts & Overlays": 字体和贴图
+              "Custom Fonts": 自定义字体
+              "Action Bar Overlay": "动作栏贴图"
+              "Boss Bar Overlay": "Boss 栏贴图"
+              "Resource Pack": "资源包"
+              "Custom Build Logic": "自定义构建逻辑"
+              "Advancements": 进度
+              "Miscellaneous": 杂项
+              "Initialization": 初始化
+              "Events": 事件
+              "Project Distributors": "Project Distributors"
+              "Attachments": Attachments
+              "Abilities": 技能
+              "Migration Guide": 版本更新

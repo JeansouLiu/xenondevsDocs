@@ -82,7 +82,7 @@
 ## 获取物品的本土化名称
 
 Nova 使用资源包来为客户端提供翻译. 如果你需要获取一个物品的本土化名称, 可以使用 ``NovaItem.getLocalizedName(locale)``. 将 locale 替换为你想要获取的本土化名称的语言代码.
-语言代码可在这里查找：[语言](https://minecraft.fandom.com/wiki/Language).
+语言代码可在这里查找：[语言](https://wiki.biligame.com/mc/%E8%AF%AD%E8%A8%80).
 
 !!! info "提示"
 

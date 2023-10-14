@@ -2,35 +2,38 @@
 
 ## 步骤 1: 安装插件
 
-* 与其他插件一样, 从 [SpigotMC](https://www.spigotmc.org/resources/93648/) 或 [Discord](https://discord.gg/hnEknVWvUe) 上下载的插件 jar 文件只需放在 ``plugins/`` 文件夹中即可.
+* 与其他插件一样, 从 [Hangar](https://hangar.papermc.io/xenondevs/Nova), [Modrinth](https://modrinth.com/plugin/nova-framework) 或 [Discord](https://discord.gg/hnEknVWvUe) 上下载的插件 jar 文件只需放在 ``plugins/`` 文件夹中即可.
 * 启动服务器并等待 Nova 完成加载. (控制台消息 `[Nova] Done loading`). 此时后面会用到的配置文件及目录就创建好了.
 * 关闭服务器.
 
-## 步骤 2: 上传资源包
+!!! bug "**不要将扩展放在 plugins 文件夹下**"
 
-根据自定义资源包的工作原理, 你需要将资源包上传才能提供给其他玩家使用.  
-你可以手动或是自动完成这一步骤.
+    Nova 扩展与插件有着很大的不同，无法在 `plugins/` 目录下正常工作.  
+    安装扩展的步骤见步骤 2.
 
-### 手动上传资源包
+## 步骤 2: 安装扩展
 
-如果要手动上传资源包, 将 ``plugins/Nova/resource_pack/ResourcePack.zip`` 文件上传至云端.
-之后将资源包的**直链**链接填入 ``plugins/Nova/configs/config.yml`` 中的 ``resource_pack.url``:
+要安装一个扩展:
 
-```yaml title="plugins/Nova/configs/config.yml"
-resource_pack:
-  url: https://example.com/resource_pack.zip
-```
+* 关闭服务器
+* 将扩展 jar 文件放进 ``plugins/Nova/addons/``
+* 启动服务器
 
-!!! warning "警告"
+插件将会自动生成新资源包并根据配置文件中的设置进行上传.
 
-    该链接必须为 **直链** 下载链接.
+!!! info "注意"
+
+    某些扩展可能会依赖于其他扩展。如果这种情况发生，插件会在控制台输出所缺的扩展: `Failed to initialize <扩展名>: Missing addon(s): <缺失的扩展>`
+
+## (可选) 修改资源包托管源
+
+根据多人游戏资源包的工作原理，资源包必须先被上传至一个网站服务器才能发送给玩家.  
+默认情况下, Nova 会自动将资源包上传至 [https://resourcepack.host](https://resourcepack.host). 由于是境外服务，中国境内的体验并不好，你可以参考下方的步骤修改资源包托管源.
 
 ### 资源包自动上传
 
 你也可以使用 Nova 内置的上传功能来自动上传资源包.  
 你可以在 ``plugins/Nova/configs/config.yml`` 文件中的 ``resource_pack.auto_upload`` 项中设置自动上传.
-
-目前有三种方式来配置自动上传:
 
 !!! info "可用的上传服务"
 
@@ -60,7 +63,7 @@ resource_pack:
         resource_pack:
           auto_upload:
             enabled: true
-            service: SelfHost
+            service: self_host
             port: 12345 # Web 服务的端口
         ```
     
@@ -74,31 +77,46 @@ resource_pack:
             当 `host` 被设置时, Nova 会认为端口不必再被加入主机名末尾.
             如果这不是你需要的情况, 设置 `append_port: true`.
     
-    === "使用 Multipart Request (高级)"
+    === "第三方上传预设"
+
+        如果你不会自定义 multi-part 请求，你还可以使用其中一个上传器预设：
+
+        === "resourcepack.host"
+
+            上传至 [https://resourcepack.host](https://resourcepack.host).
+
+            ```yaml title="plugins/Nova/configs/config.yml"
+            resource_pack:
+              auto_upload:
+                enabled: true
+                service: resourcepack.host
+            ```
+    
+    === "使用 Multipart 请求（高级）"
     
         对于高级用户, Nova 可以发送请求至你的服务器并解析服务器回应.
     
         一些示例:
 		
-        [PloudOS' resource pack CDN](https://resourcepack.host/)
+        **[PloudOS' resource pack CDN](https://resourcepack.host/)**
 		
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
             enabled: true
-            service: CustomMultiPart
+            service: custom_multi_part
             url: https://resourcepack.host/index.php
             filePartName: pack
             urlRegex: ="(http:\/\/resourcepack\.host\/dl\/[^"]+)"
         ```
         
-        [php 上传脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455)
+        **[php 上传脚本](https://gist.github.com/ByteZ1337/6582b8c31789602119c55770cb095455)**
 		
         ```yaml title="plugins/Nova/configs/config.yml"
         resource_pack:
           auto_upload:
             enabled: true
-            service: CustomMultiPart
+            service: custom_multi_part
             url: https://example.com/upload.php
             filePartName: pack
             extraParams:
@@ -116,7 +134,7 @@ resource_pack:
         resource_pack:
           auto_upload:
             enabled: true
-            service: S3
+            service: amazon_s3
             endpoint: s3.amazonaws.com # 你的 S3 服务的 endpoint
             region: eu-central-1 # 你的 S3 服务的 endpoint 区域
             bucket: examplebucket # 你的 S3 容器的名称
@@ -134,56 +152,59 @@ resource_pack:
         resource_pack:
           auto_upload:
             enabled: true
-            service: Oraxen
+            service: oraxen
         ```
 
-## 步骤 3: 安装扩展
+### 手动上传资源包
 
-如何安装一个扩展:
+要手动上传资源包, 只需上传 ``plugins/Nova/resource_pack/ResourcePack.zip`` 即可.
+上传完后，在主配置文件 ``plugins/Nova/configs/config.yml`` 中的 ``resource_pack.url`` 下填写资源包链接即可:
 
-* 关闭服务器
-* 将扩展放至 ``plugins/Nova/addons/`` 目录内
-* 启动服务器
+!!! warning "请确保你填写的下载链接是**直链**，而不是百度网盘分享链接之类的."
 
-新的资源包将会自动生成.
+```yaml title="plugins/Nova/configs/config.yml"
+resource_pack:
+  url: https://example.com/resource_pack.zip
+```
 
-!!! info "提示"
+!!! bug "优先选择资源包自动上传"
 
-    某些扩展可能会依赖其它扩展. 如果此情况存在, 控制台中的报错信息会提示你缺少的扩展: `Failed to initialize <扩展名>: Missing addon(s): <缺失的扩展>`
+    如果你选择手动上传资源包，你将需要在每次更新 Nova 及其扩展或是修改影响资源包生成的配置时重新上传资源包.  
+    **这也是为什么你应该优先选择资源包自动上传.**
 
 ## (可选) 资源包合并
 
 **此步骤仅在你的服务器需要其它资源包时进行.**
 
-由于 Minecraft 游戏机制的限制, 一个服务器只能提供一个资源包. 为了解决这个问题, Nova 可以自动合并已经存在的资源包.  
+由于 Minecraft 的限制, 一个服务器只能设置一个资源包.
+但这个限制可以通过合并资源包来解决，而 Nova 就可以将自己的资源包和其他资源包进行合并.
+另外, Nova 还会分析这些资源包并修改自身数据从而避免冲突.
+不建议手动合并资源包或是使用其他插件的合并服务.
 
 插件提供了两种方法来指定要合并的资源包:  
 
 === "使用配置文件"
 
-    * 确保你关闭了另一个提供资源包的插件的资源包发送功能
-    * 在 Nova 配置文件中的 `resource_pack` > `generation` > `base_packs` 设置待合并资源包路径
+    1. 确保你关闭了另一个提供资源包的插件的资源包发送功能。
+    2. 在 Nova 配置文件中的 `resource_pack` > `generation` > `base_packs` 设置待合并资源包路径。
 
-    示例:
-    ```yaml title="plugins/Nova/configs/config.yml"
-    resource_pack:
-      generation:
-        base_packs:
-          - plugins/ItemsAdder/output/generated.zip
-    ```
+        ```yaml title="plugins/Nova/configs/config.yml"
+        resource_pack:
+          generation:
+            base_packs:
+              - plugins/ItemsAdder/output/generated.zip
+        ```
 
-    !!! info "提示"
-    
-        你可以添加更多资源包.
-    
-        **注意:** 在用 Nova 生成资源包之前, 确保列表中的资源包已被正确生成.
-        例如, ItemsAdder 插件需要使用 ``/iazip`` 指令来生成资源包.
+    3. 确保列出的资源包都已经被正确生成. (例如, ItemsAdder 需要使用 ``/iazip`` 指令来生成资源包.)
+    4. 使用 `/nova reload configs` 指令重载配置或重启服务器.
+    5. 使用 `/nova resourcePack create` 指令重新生成资源包.
 
 === "使用文件夹"
 
-    * 确保你关闭了另一个提供资源包的插件的资源包发送功能
-    * 将资源包复制到 `plugins/Nova/resource_pack/base_packs/`
+    1. 确保你关闭了另一个提供资源包的插件的资源包发送功能
+    2. 将资源包复制到 `plugins/Nova/resource_pack/base_packs/`
+    3. 使用 `/nova resourcePack create` 指令重新生成资源包.
 
-        !!! info "提示"
-    
-            你可以添加更多资源包.
+!!! info "提示"
+
+    你可以添加更多资源包.
