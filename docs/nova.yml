@@ -13,6 +13,9 @@ extra:
     - name: 简体中文
       link: /nova/zh/
       lang: zh
+    - name: 中国站
+      link: https://nova.netheritetree.cn/nova/zh/
+      lang: zh
 
 theme:
   features:
