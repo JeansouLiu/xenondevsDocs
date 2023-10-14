@@ -13,8 +13,6 @@ extra:
     - name: 简体中文
       link: /nova/zh/
       lang: zh
-    - name: 中国站
-      link: https://nova.netheritetree.cn/nova/zh/
 
 theme:
   features:
@@ -159,6 +157,7 @@ nav:
           - "0.13 ➝ 0.14": "addon/migration-guide/0.13-0.14.md"
           - "0.12 ➝ 0.13": "addon/migration-guide/0.12-0.13.md"
           - "0.11 ➝ 0.12": "addon/migration-guide/0.11-0.12.md"
+  - "腾讯云加速站点": "https://nova.netheritetree.cn/"
 
 plugins:
   - search
