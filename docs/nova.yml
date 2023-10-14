@@ -157,7 +157,7 @@ nav:
           - "0.13 ➝ 0.14": "addon/migration-guide/0.13-0.14.md"
           - "0.12 ➝ 0.13": "addon/migration-guide/0.12-0.13.md"
           - "0.11 ➝ 0.12": "addon/migration-guide/0.11-0.12.md"
-  - "腾讯云加速站点": "https://nova.netheritetree.cn/"
+  - "腾讯云加速站点": "https://nova.netheritetree.cn/nova/zh/"
 
 plugins:
   - search
