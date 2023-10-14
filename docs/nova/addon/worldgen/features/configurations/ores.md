@@ -90,7 +90,7 @@ The following `RuleTests` are available:
     </tr>
     <tr>
         <td><code>minecraft:tag_match</code></td>
-        <td>Matches a specific <a href="https://minecraft.fandom.com/wiki/Tag#Blocks">block tag</a></td>
+        <td>Matches a specific <a href="https://minecraft.wiki/w/Tag#Blocks">block tag</a></td>
         <td>
             ```kotlin
             TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES)
@@ -259,7 +259,7 @@ As an example, here's the configured- and placed feature of star shards ore from
 
     ```kotlin title="ConfiguredFeatures.kt"
     @OptIn(ExperimentalWorldGen::class)
-    @Init
+    @Init(stage = InitStage.POST_PACK_PRE_WORLD)
     object ConfiguredFeatures : FeatureRegistry by ExampleAddon.registry {
     
         val ORE_STAR_SHARDS = registerConfiguredFeature(
@@ -329,7 +329,7 @@ As an example, here's the configured- and placed feature of star shards ore from
 
     ```kotlin title="PlacedFeatures.kt"
     @OptIn(ExperimentalWorldGen::class)
-    @Init
+    @Init(stage = InitStage.POST_PACK_PRE_WORLD)
     object PlacedFeatures : FeatureRegistry by ExampleAddon.registry {
     
         val ORE_STAR_SHARDS = placedFeature("ore_star_shards", ConfiguredFeatures.ORE_STAR_SHARDS)

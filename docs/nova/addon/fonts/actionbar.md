@@ -1,12 +1,7 @@
-!!! tip
-
-    In order to understand Nova's overlays, it might be beneficial for you to read our
-    [spigot thread on using the font renderer](https://www.spigotmc.org/threads/520187/).
-
-Overlays follow the same concept of using fonts to render images as [GUI Textures](../guitexture.md), but are
+Overlays follow the same concept of using fonts to render images as [GUI Textures](../guitextures.md), but are
 a bit more difficult to implement for addon developers, as you need to create the font file yourself.
 
-Font files are stored under `assets/fonts/` and have [this format](https://minecraft.fandom.com/wiki/Resource_Pack#Fonts).  
+Font files are stored under `assets/fonts/` and have [this format](https://minecraft.wiki/w/Resource_Pack#Fonts).  
 You might also want to take a look at [our font for the jetpack energy bar overlay](https://github.com/Nova-Addons/Jetpacks/blob/main/src/main/resources/assets/fonts/energy_bar.json).
 
 ## ActionBarOverlay

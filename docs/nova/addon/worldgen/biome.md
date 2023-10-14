@@ -8,7 +8,7 @@
 
 Biomes are regions in the world with distinct [features](features/features.md), [carvers](carver.md), [climate](#climate),
 [effects](#special-effects) and much more. This page only covers the `BiomeBuilder` for now. If you're looking for the Json
-format, check out the [Minecraft Wiki](https://minecraft.fandom.com/wiki/Custom_biome).
+format, check out the [Minecraft Wiki](https://minecraft.wiki/w/Custom_biome).
 
 First, let's get into more detail on the individual components of a biome.
 
@@ -32,7 +32,7 @@ kdoc for more information.
 
 ```kotlin title="Biomes.kt"
 @OptIn(ExperimentalWorldGen::class)
-@Init
+@Init(stage = InitStage.POST_PACK_PRE_WORLD)
 object Biomes : BiomeRegistry by ExampleAddon.registry {
     
     private val MISC_ORES = listOf(OrePlacements.ORE_DIRT, OrePlacements.ORE_GRAVEL, OrePlacements.ORE_GRANITE_UPPER, OrePlacements.ORE_GRANITE_LOWER, OrePlacements.ORE_DIORITE_UPPER, OrePlacements.ORE_DIORITE_LOWER, OrePlacements.ORE_ANDESITE_UPPER, OrePlacements.ORE_ANDESITE_LOWER, OrePlacements.ORE_TUFF)
