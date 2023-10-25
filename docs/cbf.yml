@@ -1,5 +1,5 @@
 INHERIT: base.yml
-site_url: https://xenondevs.tree.pink/cbf/
+site_url: https://nova.netheritetree.cn/cbf/
 docs_dir: cbf
 site_dir: sites/cbf
 site_name: CBF Documentation

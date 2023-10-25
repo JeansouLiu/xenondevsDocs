@@ -1,5 +1,5 @@
 INHERIT: base.yml
-site_url: https://xenondevs.tree.pink/nova/
+site_url: https://nova.netheritetree.cn/nova/
 docs_dir: nova
 site_dir: sites/nova
 site_name: Nova Documentation
