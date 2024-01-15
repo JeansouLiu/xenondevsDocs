@@ -187,7 +187,7 @@ plugins:
               "Setup": 插件安装
               "Configuration": 插件配置
               "Compatibility": 兼容性
-              "List of compatible Plugins": 兼容的插件
+              "Server Software & third-party Plugins": 服务端及第三方插件
               "Troubleshooting": 疑难解答
               "Recipes": 合成配方
               "Custom Recipes": 自定义配方
