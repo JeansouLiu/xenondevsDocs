@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/abilities/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/abilities/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/abilities/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/addon-configuration/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/addon-configuration/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/addon-configuration/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/advancements/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/advancements/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/advancements/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/attachments/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/attachments/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/attachments/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/configs/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/configs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/configs/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/hitboxes/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/hitboxes/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/hitboxes/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/recipes/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/recipes/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/recipes/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/asset-packs/assetpack-basics/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/assetpack-basics/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/assetpack-basics/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/asset-packs/creating-armor/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/creating-armor/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-armor/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/asset-packs/creating-blocks/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/creating-blocks/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-blocks/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/asset-packs/creating-guis/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/creating-guis/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-guis/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/asset-packs/creating-items/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/creating-items/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-items/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/asset-packs/language-files/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/language-files/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/language-files/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/blocks/registering-blocks/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/registering-blocks/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/registering-blocks/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/blocks/tileentity/base/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/base/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/base/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/blocks/tileentity/config/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/config/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/config/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/blocks/tileentity/data/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/data/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/data/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/blocks/tileentity/gui/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/gui/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/gui/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/blocks/tileentity/holders/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/holders/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/holders/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/blocks/tileentity/particles/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/particles/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/particles/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/blocks/tileentity/region/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/region/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/region/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/blocks/tileentity/upgrades/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/upgrades/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/upgrades/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/fonts/actionbar/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/fonts/actionbar/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/fonts/actionbar/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/fonts/bossbar/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/fonts/bossbar/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/fonts/bossbar/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/fonts/fonts/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/fonts/fonts/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/fonts/fonts/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/fonts/guitextures/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/fonts/guitextures/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/fonts/guitextures/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/items/enchantments/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/enchantments/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/enchantments/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/items/item-behaviors/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/item-behaviors/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/item-behaviors/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/items/registering-items/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/registering-items/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/registering-items/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/items/tools/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/tools/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/tools/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/items/using-nova-item/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/using-nova-item/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/using-nova-item/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/migration-guide/0.11-0.12/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/migration-guide/0.11-0.12/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.11-0.12/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/migration-guide/0.12-0.13/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/migration-guide/0.12-0.13/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.12-0.13/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/migration-guide/0.13-0.14/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/migration-guide/0.13-0.14/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.13-0.14/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/migration-guide/0.14-0.15/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/migration-guide/0.14-0.15/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.14-0.15/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/misc/events/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/misc/events/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/misc/events/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/misc/initialization/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/misc/initialization/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/misc/initialization/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/misc/project-distributors/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/misc/project-distributors/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/misc/project-distributors/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/resourcepack/build-logic/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/resourcepack/build-logic/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/resourcepack/build-logic/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/biome/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/biome/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/biome/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/carver/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/carver/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/carver/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/codec/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/codec/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/codec/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/worldgen/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/worldgen/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/worldgen/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/custom-feature/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/custom-feature/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/custom-feature/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/features/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/features/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/placed-feature/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/placed-feature/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/placed-feature/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/bamboo/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/bamboo/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/bamboo/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/basalt-columns/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/basalt-columns/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/basalt-columns/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/block-column/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/block-column/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/block-column/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/block-pile/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/block-pile/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/block-pile/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/delta/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/delta/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/delta/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/disk/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/disk/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/disk/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/dripstone-cluster/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/dripstone-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/dripstone-cluster/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/end-gateway/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/end-gateway/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/end-gateway/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/end-spike/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/end-spike/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/end-spike/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/fill-layer/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/fill-layer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/fill-layer/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/forest-rock/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/forest-rock/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/forest-rock/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/fossil/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/fossil/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/fossil/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/geode/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/geode/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/geode/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/huge-fungus/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/huge-fungus/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/huge-fungus/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/huge-mushrooms/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/huge-mushrooms/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/huge-mushrooms/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/iceberg/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/iceberg/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/iceberg/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/lake/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/lake/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/lake/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/large-dripstone/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/large-dripstone/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/large-dripstone/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/multiface-growth/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/multiface-growth/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/multiface-growth/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/nether-forest-vegetation/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/nether-forest-vegetation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/nether-forest-vegetation/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/ores/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/ores/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/ores/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/pointed-dripstone/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/pointed-dripstone/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/pointed-dripstone/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/random-patch/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/random-patch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/random-patch/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/random-selector/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/random-selector/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/random-selector/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/replace-blobs/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/replace-blobs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/replace-blobs/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/replace-single-block/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/replace-single-block/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/replace-single-block/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/root-system/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/root-system/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/root-system/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/sculk-patch/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/sculk-patch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/sculk-patch/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/sea-pickle/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/sea-pickle/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/sea-pickle/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/seagrass/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/seagrass/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/seagrass/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/simple-block/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/simple-block/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/simple-block/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/simple-random-selector/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/simple-random-selector/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/simple-random-selector/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/spring-feature/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/spring-feature/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/spring-feature/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/tree/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/tree/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/tree/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/twisting-vines/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/twisting-vines/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/twisting-vines/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/underwater-magma/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/underwater-magma/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/underwater-magma/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/vegetation-patch/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/vegetation-patch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/vegetation-patch/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/inject/biome/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/inject/biome/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/inject/biome/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/types/block-predicate/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/block-predicate/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/block-predicate/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/types/block-state-provider/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/block-state-provider/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/block-state-provider/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/types/block-state/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/block-state/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/block-state/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/types/height-provider/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/height-provider/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/height-provider/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/addon/worldgen/types/number-provider/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/number-provider/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/number-provider/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/configuration/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/configuration/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/faq/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/faq/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/setup/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/setup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/setup/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/compatibility/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/compatibility/itemsadder/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/itemsadder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/itemsadder/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/compatibility/oraxen/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/oraxen/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/oraxen/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/compatibility/troubleshooting/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/troubleshooting/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/troubleshooting/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/compatibility/utp/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/utp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/utp/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/recipes/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/recipes/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/recipes/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/recipes/machines/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/recipes/machines/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/recipes/machines/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/admin/recipes/vanilla/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/recipes/vanilla/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/recipes/vanilla/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/blocks/blockmanager/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/blocks/blockmanager/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/blocks/blockmanager/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/blocks/blockregistry/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/blocks/blockregistry/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/blocks/blockregistry/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/events/novaloaddataevent/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/events/novaloaddataevent/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/events/novaloaddataevent/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/events/tileentitybreakblockevent/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/events/tileentitybreakblockevent/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/events/tileentitybreakblockevent/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/items/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/items/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/items/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/player/wailamanager/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/player/wailamanager/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/player/wailamanager/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/protection/protectionintegration/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/protection/protectionintegration/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/protection/protectionintegration/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/tileentity/tileentity/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/tileentity/tileentity/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/tileentity/tileentity/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/api/tileentity/tileentitymanager/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/tileentity/tileentitymanager/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/tileentity/tileentitymanager/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/abilities/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/abilities/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/abilities/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/addon-configuration/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/addon-configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/addon-configuration/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/advancements/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/advancements/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/advancements/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/attachments/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/attachments/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/attachments/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/configs/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/configs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/configs/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/hitboxes/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/hitboxes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/hitboxes/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/recipes/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/recipes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/recipes/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/asset-packs/assetpack-basics/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/assetpack-basics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/assetpack-basics/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-armor/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-armor/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/creating-armor/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-blocks/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-blocks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/creating-blocks/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-guis/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-guis/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/creating-guis/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-items/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/creating-items/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/creating-items/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/asset-packs/language-files/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/asset-packs/language-files/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/asset-packs/language-files/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/blocks/registering-blocks/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/registering-blocks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/registering-blocks/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/base/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/base/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/base/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/config/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/config/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/config/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/data/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/data/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/data/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/gui/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/gui/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/gui/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/holders/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/holders/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/holders/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/particles/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/particles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/particles/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/region/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/region/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/region/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/upgrades/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/blocks/tileentity/upgrades/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/blocks/tileentity/upgrades/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/fonts/actionbar/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/fonts/actionbar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/fonts/actionbar/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/fonts/bossbar/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/fonts/bossbar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/fonts/bossbar/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/fonts/fonts/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/fonts/fonts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/fonts/fonts/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/fonts/guitextures/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/fonts/guitextures/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/fonts/guitextures/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/items/enchantments/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/enchantments/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/enchantments/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/items/item-behaviors/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/item-behaviors/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/item-behaviors/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/items/registering-items/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/registering-items/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/registering-items/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/items/tools/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/tools/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/tools/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/items/using-nova-item/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/items/using-nova-item/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/items/using-nova-item/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.11-0.12/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.11-0.12/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/migration-guide/0.11-0.12/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.12-0.13/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.12-0.13/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/migration-guide/0.12-0.13/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.13-0.14/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.13-0.14/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/migration-guide/0.13-0.14/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.14-0.15/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/migration-guide/0.14-0.15/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/migration-guide/0.14-0.15/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/misc/events/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/misc/events/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/misc/events/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/misc/initialization/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/misc/initialization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/misc/initialization/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/misc/project-distributors/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/misc/project-distributors/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/misc/project-distributors/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/resourcepack/build-logic/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/resourcepack/build-logic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/resourcepack/build-logic/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/biome/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/biome/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/biome/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/carver/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/carver/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/carver/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/codec/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/codec/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/codec/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/worldgen/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/worldgen/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/worldgen/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/custom-feature/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/custom-feature/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/custom-feature/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/features/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/features/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/placed-feature/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/placed-feature/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/placed-feature/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/bamboo/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/bamboo/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/bamboo/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/basalt-columns/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/basalt-columns/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/basalt-columns/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/block-column/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/block-column/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/block-column/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/block-pile/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/block-pile/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/block-pile/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/delta/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/delta/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/delta/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/disk/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/disk/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/disk/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/dripstone-cluster/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/dripstone-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/dripstone-cluster/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/end-gateway/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/end-gateway/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/end-gateway/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/end-spike/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/end-spike/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/end-spike/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/fill-layer/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/fill-layer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/fill-layer/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/forest-rock/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/forest-rock/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/forest-rock/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/fossil/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/fossil/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/fossil/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/geode/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/geode/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/geode/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/huge-fungus/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/huge-fungus/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/huge-fungus/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/huge-mushrooms/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/huge-mushrooms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/huge-mushrooms/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/iceberg/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/iceberg/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/iceberg/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/lake/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/lake/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/lake/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/large-dripstone/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/large-dripstone/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/large-dripstone/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/multiface-growth/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/multiface-growth/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/multiface-growth/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/nether-forest-vegetation/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/nether-forest-vegetation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/nether-forest-vegetation/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/ores/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/ores/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/ores/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/pointed-dripstone/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/pointed-dripstone/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/pointed-dripstone/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/random-patch/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/random-patch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/random-patch/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/random-selector/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/random-selector/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/random-selector/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/replace-blobs/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/replace-blobs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/replace-blobs/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/replace-single-block/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/replace-single-block/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/replace-single-block/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/root-system/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/root-system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/root-system/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/sculk-patch/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/sculk-patch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/sculk-patch/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/sea-pickle/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/sea-pickle/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/sea-pickle/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/seagrass/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/seagrass/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/seagrass/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/simple-block/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/simple-block/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/simple-block/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/simple-random-selector/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/simple-random-selector/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/simple-random-selector/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/spring-feature/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/spring-feature/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/spring-feature/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/tree/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/tree/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/tree/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/twisting-vines/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/twisting-vines/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/twisting-vines/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/underwater-magma/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/underwater-magma/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/underwater-magma/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/vegetation-patch/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/features/configurations/vegetation-patch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/features/configurations/vegetation-patch/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/inject/biome/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/inject/biome/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/inject/biome/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/block-predicate/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/block-predicate/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/block-predicate/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/block-state-provider/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/block-state-provider/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/block-state-provider/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/block-state/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/block-state/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/block-state/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/height-provider/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/height-provider/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/height-provider/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/number-provider/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/addon/worldgen/types/number-provider/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/addon/worldgen/types/number-provider/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/configuration/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/configuration/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/faq/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/faq/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/setup/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/setup/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/compatibility/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/compatibility/itemsadder/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/itemsadder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/itemsadder/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/compatibility/oraxen/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/oraxen/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/oraxen/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/compatibility/troubleshooting/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/troubleshooting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/troubleshooting/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/compatibility/utp/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/compatibility/utp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/compatibility/utp/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/recipes/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/recipes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/recipes/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/recipes/machines/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/recipes/machines/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/recipes/machines/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/admin/recipes/vanilla/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/admin/recipes/vanilla/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/admin/recipes/vanilla/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/blocks/blockmanager/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/blocks/blockmanager/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/blocks/blockmanager/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/blocks/blockregistry/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/blocks/blockregistry/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/blocks/blockregistry/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/events/novaloaddataevent/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/events/novaloaddataevent/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/events/novaloaddataevent/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/events/tileentitybreakblockevent/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/events/tileentitybreakblockevent/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/events/tileentitybreakblockevent/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/items/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/items/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/items/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/player/wailamanager/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/player/wailamanager/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/player/wailamanager/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/protection/protectionintegration/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/protection/protectionintegration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/protection/protectionintegration/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/tileentity/tileentity/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/tileentity/tileentity/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/tileentity/tileentity/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/nova/zh/api/tileentity/tileentitymanager/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/nova/zh/api/tileentity/tileentitymanager/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/nova/api/tileentity/tileentitymanager/"/>
+    </url>
+</urlset>

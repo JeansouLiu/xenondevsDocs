@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/binaryadapter/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/binaryadapter/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/binaryadapter/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/compound/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/compound/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/compound/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/instancecreator/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/instancecreator/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/instancecreator/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/serialization/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/serialization/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/serialization/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/zh/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/zh/binaryadapter/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/binaryadapter/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/binaryadapter/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/zh/compound/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/compound/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/compound/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/zh/instancecreator/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/instancecreator/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/instancecreator/"/>
+    </url>
+    <url>
+        <loc>https://nova.netheritetree.cn/cbf/zh/serialization/</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://nova.netheritetree.cn/cbf/zh/serialization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nova.netheritetree.cn/cbf/serialization/"/>
+    </url>
+</urlset>
